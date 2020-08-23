@@ -256,7 +256,9 @@ class TcUser
         $this->logout('IP divergent address');
       }
 
-      //Executa o logout se expirar o tempo
+      if (!isset($_SESSION['time'])) { 
+        $_SESSION['time'] = time();
+      }
       if (($_SESSION['time'] + $this->FConfig['timeout']) > time()) {
         $_SESSION['time'] = time();
         return (true);
@@ -268,6 +270,9 @@ class TcUser
     }
     return (false);
   }
+
+
+
   function reLogin()
   {      //Mantido apenas para retrocompatibilidade
     return ($this->active());

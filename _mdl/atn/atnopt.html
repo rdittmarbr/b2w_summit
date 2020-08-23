@@ -1,21 +1,150 @@
 <div id="paginaInterpreteOnline">
   <div class="row">
+
     <div class="col-lg-4">
       <div class="textoPage">
         <div class="centralizaInner">
-          <img src="img/imgsvg/svgAtt/interpreteonline.svg" class="imgAgendamentoDispMovel" alt="">
+          <img src="img/imgsvg/svgAtt/meusdados.svg" class="imgAgendamentoDispMovel" alt="">
         </div>
 
         <div class="">
-          <h1>Cadastros</h1>
-          <h5>Cadastros.</h5>
+          <h1>Cadastro Cliente</h1>
+          <h5>Insira os dados do Seu cliente.</h5>
         </div>
       </div>
     </div>
 
+
+
+
+
     <div class="col-lg-8">
-      <div id="opcoesInterpreteOnline" class="caseInterpreteOnline centralizaInner">
-        <!-- completado pelo script -->
+      <div class="caseMeusDados">
+        <form class="" action="" method="">
+          <div class="form-row">
+
+            <div class="col-lg-4 mb-3">
+              <label for="in_usudta_usunms" id="lb_usudta_usunms">CNPJ/CPF *</label>
+              <br />
+              <input id="in_usudta_usunms" name="in_usudta_usunms" type="text" class="form-control-lg" value="">
+            </div>
+            <!-- Nome -->
+            <div class="col-lg-8 mb-3">
+              <label for="in_usudta_usunme" lb="lb_usudta_usunme">Nome *</label>
+              <br />
+              <input id="in_usudta_usunme" name="in_usudta_usunme" type="text" class="form-control-lg" value="">
+              <!-- disabled -->
+            </div>
+
+        
+
+
+            <!-- Nome Social -->
+
+
+            <!-- Endereço -->
+            <div class="col-lg-6 mb-3">
+              <label for="" id="lb_usudta_usueml">Endereço *</label>
+              <br />
+              <input id="" name="" type="text" class="form-control-lg"> <!-- disabled -->
+            </div>
+
+
+
+            <div class="col-lg-3 mb-3">
+              <label for="" id="lb_usudta_usueml">Cidade - UF</label>
+              <br />
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  São Paulo - SP
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Rio de Janeiro - RJ</a>
+                  <a class="dropdown-item" href="#">Salvador - BA</a>
+                  <a class="dropdown-item" href="#">Belo Horizonte - MG</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2 mb-3">
+              <label for="" id="lb_usudta_usueml">CEP *</label>
+              <br />
+              <input id="" name="" type="text" class="form-control-lg"> <!-- disabled -->
+            </div>
+
+
+
+
+            <!-- E-mail secundário -->
+
+            <div class="col-lg-4 mb-3">
+              <label for="in_usudta_usuema" id="lb_usudta_usuema">Data Nacimento</label>
+              <br />
+              <input id="in_usudta_usuema" name="in_usudta_usuema" type="date" class="form-control-lg">
+            </div>
+
+            <!-- Telefone -->
+            <div class="col-lg-4 mb-3">
+              <label for="" id="lb_usudta_usueml">Sexo</label>
+              <br />
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  Feminino
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Masculino</a>
+                  <a class="dropdown-item" href="#">Prefiro não informar</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-3">
+              <label for="in_usudta_usueml" id="lb_usudta_usueml">Profissão</label>
+              <br />
+              <input id="in_usudta_usueml" name="in_usudta_usueml" type="email" class="form-control-lg">
+              <!-- disabled -->
+            </div>
+            <!-- E-mail -->
+            <div class="col-lg-4 mb-3">
+              <label for="in_usudta_usueml" id="lb_usudta_usueml">E-mail</label>
+              <br />
+              <input id="in_usudta_usueml" name="in_usudta_usueml" type="email" class="form-control-lg">
+              <!-- disabled -->
+            </div>
+            <div class="col-lg-4 mb-3">
+              <img src="img/whatsapp.png" alt="WhatsApp">
+              <label for="telefone" id="lb_usudta_usupne"> WhatsApp</label>
+              <br />
+              <input id="telefone" name="telefone" type="text" class="form-control-lg" maxlength="15" value=""
+                pattern="[0-9]{3}-[0-9]{5}-[0-9]{4}">
+            </div>
+            <!-- Telefone -->
+            <div class="col-lg-4 mb-3">
+              <label for="telefone" id="lb_usudta_usupne">Telefone</label>
+              <br />
+              <input id="telefone" name="telefone" type="text" class="form-control-lg" maxlength="15" value=""
+                pattern="[0-9]{3}-[0-9]{5}-[0-9]{4}">
+            </div>
+
+
+       
+
+
+  
+
+            <!-- Telefone -->
+
+            <!-- ############################################ -->
+
+
+
+          </div>
+        </form>
+        <div class="centralizaInner">
+          <button class="btn-lg" type="submit" onclick="gl_Desktop.sendForm(fm_usudta)">Atualizar
+            dados</button>
+        </div>
       </div>
     </div>
   </div>

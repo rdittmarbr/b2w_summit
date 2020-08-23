@@ -17,95 +17,141 @@
             <div class="caseMeusDados">
                 <form class="" action="" method="">
                     <div class="form-row">
+
+
+                        <div class="col-lg-4 mb-3">
+                            <label for="in_usudta_usunms" id="lb_usudta_usunms">CNPJ/CPF *</label>
+                            <br />
+                            <input id="in_usudta_usunms" name="in_usudta_usunms" type="text" class="form-control-lg"
+                                value="">
+                        </div>
+                        <div class="col-lg-4 mb-3">
+                            <label for="in_usudta_usunms" id="lb_usudta_usunms">IE</label>
+                            <br />
+                            <input id="in_usudta_usunms" name="in_usudta_usunms" type="text" class="form-control-lg"
+                                value="">
+                        </div>
+                        <div class="col-lg-4 mb-3">
+                            <label for="in_usudta_usunms" id="lb_usudta_usunms">IM</label>
+                            <br />
+                            <input id="in_usudta_usunms" name="in_usudta_usunms" type="text" class="form-control-lg"
+                                value="">
+                        </div>
+
                         <!-- Nome -->
                         <div class="col-lg-12 mb-3">
-                            <label for="in_usudta_usunme" lb="lb_usudta_usunme">Nome</label>
-                            <br/>
-                            <input id="in_usudta_usunme" name="in_usudta_usunme" type="text" class="form-control-lg" value=""> <!-- disabled -->
+                            <label for="in_usudta_usunme" lb="lb_usudta_usunme">Razão Social *</label>
+                            <br />
+                            <input id="in_usudta_usunme" name="in_usudta_usunme" type="text" class="form-control-lg"
+                                value=""> <!-- disabled -->
                         </div>
 
                         <!-- GRR -->
                         <div class="col-lg-12 mb-3">
-                            <label for="in_usudta_usurge" id="lb_usudta_usurge">GRR</label>
-                            <br/>
-                            <input id="in_usudta_usurge" name="in_usudta_usurge" type="text" class="form-control-lg" value=""> <!-- disabled -->
+                            <label for="in_usudta_usurge" id="lb_usudta_usurge">Nome Fantasia</label>
+                            <br />
+                            <input id="in_usudta_usurge" name="in_usudta_usurge" type="text" class="form-control-lg"
+                                value=""> <!-- disabled -->
                         </div>
 
-                        <!-- Curso -->
-                        <div class="col-lg-12 mb-3">
-
-                        </div>
+            
 
                         <!-- Nome Social -->
-                        <div class="col-lg-12 mb-3">
-                            <label for="in_usudta_usunms" id="lb_usudta_usunms">Nome social</label>
-                            <br/>
-                            <input id="in_usudta_usunms" name="in_usudta_usunms" type="text" class="form-control-lg" value="">
-                        </div>
+               
 
                         <!-- Endereço -->
-                        <div class="col-lg-12 mb-3">
-                            <label for="" id="lb_usudta_usueml" >Endereço</label>
-                            <br/>
+                        <div class="col-lg-6 mb-3">
+                            <label for="" id="lb_usudta_usueml">Endereço *</label>
+                            <br />
                             <input id="" name="" type="text" class="form-control-lg"> <!-- disabled -->
                         </div>
 
+               
+
+                        <div class="col-lg-3 mb-3">
+                            <label for="" id="lb_usudta_usueml">Cidade - UF</label>
+                            <br />
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                    São Paulo - SP
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Rio de Janeiro - RJ</a>
+                                    <a class="dropdown-item" href="#">Salvador - BA</a>
+                                    <a class="dropdown-item" href="#">Belo Horizonte - MG</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-2 mb-3">
+                            <label for="" id="lb_usudta_usueml">CEP *</label>
+                            <br />
+                            <input id="" name="" type="text" class="form-control-lg"> <!-- disabled -->
+                        </div>
+
+
                         <!-- E-mail -->
                         <div class="col-lg-4 mb-3">
-                            <label for="in_usudta_usueml" id="lb_usudta_usueml" >E-mail</label>
-                            <br/>
-                            <input id="in_usudta_usueml" name="in_usudta_usueml" type="email" class="form-control-lg"> <!-- disabled -->
+                            <label for="in_usudta_usueml" id="lb_usudta_usueml">E-mail</label>
+                            <br />
+                            <input id="in_usudta_usueml" name="in_usudta_usueml" type="email" class="form-control-lg">
+                            <!-- disabled -->
                         </div>
 
                         <!-- E-mail secundário -->
+
                         <div class="col-lg-4 mb-3">
-                            <label for="in_usudta_usuema" id="lb_usudta_usuema" >E-mail secundário</label>
-                            <br/>
+                            <label for="in_usudta_usuema" id="lb_usudta_usuema">E-mail secundário</label>
+                            <br />
                             <input id="in_usudta_usuema" name="in_usudta_usuema" type="email" class="form-control-lg">
                         </div>
 
                         <!-- Telefone -->
                         <div class="col-lg-4 mb-3">
-                            <label for="telefone" id="lb_usudta_usupne" >Telefone</label>
-                            <br/>
-                            <input id="telefone" name="telefone" type="text" class="form-control-lg" maxlength="15" value="" pattern="[0-9]{3}-[0-9]{5}-[0-9]{4}">
+                            <label for="telefone" id="lb_usudta_usupne">Telefone</label>
+                            <br />
+                            <input id="telefone" name="telefone" type="text" class="form-control-lg" maxlength="15"
+                                value="" pattern="[0-9]{3}-[0-9]{5}-[0-9]{4}">
                         </div>
 
+
+
+
+                      
+                       <div class="col-lg-4 mb-3">
+                        <img src="img/Instagram.png" alt="Instagram">
+                           <label for="in_usudta_usueml" id="lb_usudta_usueml">   Instagram</label>
+                            <br />
+                            <input id="in_usudta_usueml" name="in_usudta_usueml" type="url" class="form-control-lg">
+                            <!-- disabled -->
+                        </div>
+
+                        <!-- E-mail secundário -->
+                        <div class="col-lg-4 mb-3">
+                            <img src="img/facebook.png" alt="Facebook">
+                            <label for="in_usudta_usuema" id="lb_usudta_usuema">   FaceBook</label>
+                            <br />
+                            <input id="in_usudta_usuema" name="in_usudta_usuema" type="url" class="form-control-lg">
+                        </div>
+
+                        <!-- Telefone -->
+                        <div class="col-lg-4 mb-3">
+                            <img src="img/whatsapp.png" alt="WhatsApp">
+                            <label for="telefone" id="lb_usudta_usupne">   WhatsApp</label>
+                            <br />
+                            <input id="telefone" name="telefone" type="text" class="form-control-lg" maxlength="15"
+                                value="" pattern="[0-9]{3}-[0-9]{5}-[0-9]{4}">
+                        </div>
                         <!-- ############################################ -->
 
 
-                        <!-- Surdo? Cego? Daltônico? -->
-                        <div class="col-md-4 mb-3">
-                            <div class="custom-control custom-checkbox mb-3">
-                                <input type="checkbox" class="custom-control-input" id="surdoMeusDados">
-                                <label class="custom-control-label" for="surdoMeusDados">
-                                    <img id="btnimagem" src="img/imgsvg/svgAtt/icone_surdo.svg" class="imgNecessidades" alt=""> Surdo
-                                </label>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 mb-3">
-                            <div class="custom-control custom-checkbox mb-3">
-                                <input type="checkbox" class="custom-control-input" id="cegoMeusDados">
-                                <label class="custom-control-label" for="cegoMeusDados">
-                                    <img id="btnimagem" src="img/imgsvg/svgAtt/icone_cego.svg" class="imgNecessidades" alt=""> Cego
-                                </label>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 mb-3">
-                            <div class="custom-control custom-checkbox mb-3">
-                                <input type="checkbox" class="custom-control-input" id="daltonicoMeusDados">
-                                <label class="custom-control-label" for="daltonicoMeusDados">
-                                    <img id="btnimagem" src="img/imgsvg/svgAtt/icone_daltonico.svg" class="imgNecessidades" alt=""> Daltônico
-                                </label>
-                            </div>
-                        </div>
-                        <!-- ############################################ -->
-                    </div>
+                        
+                    </div>  
                 </form>
                 <div class="centralizaInner">
-                    <button class="btn-lg" type="submit" onclick="gl_Desktop.sendForm(fm_usudta)">Atualizar dados</button>
+                    <button class="btn-lg" type="submit" onclick="gl_Desktop.sendForm(fm_usudta)">Atualizar
+                        dados</button>
                 </div>
             </div>
         </div>

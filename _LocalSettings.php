@@ -31,7 +31,7 @@ define('ES_HTML', ES . 'html/');               //Formulários HTML
 
 //Debug
 define('ES_SYCONFIG', true);       //Imprimir a Configuração do Site
-define('ES_SYDEBUG', true);       //Debug
+define('ES_SYDEBUG', False);       //Debug
 define('ES_SYDEBUGLEVEL', 9);          //Nivel
 define('ES_POSTDEBUG', true);       //Retorna o post JSON
 define('ES_JSDEBUG', true);       //Debug javascript

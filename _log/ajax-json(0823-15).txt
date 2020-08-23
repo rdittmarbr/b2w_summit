@@ -1,0 +1,58 @@
+------------------------------------------------------------
+IP : ::1(9)
+------------------------------------------------------------
+ES       :D:/XAMPP/htdocs/b2w_summit/
+ES_LIB   :D:/XAMPP/htdocs/b2w_summit/_lib/
+ES_HTML  :D:/XAMPP/htdocs/b2w_summit/html/
+ES_LOG   :D:/XAMPP/htdocs/b2w_summit/_log/
+ES_MODULE:D:/XAMPP/htdocs/b2w_summit/_mdl/
+------------------------------------------------------------
+USER AGENT:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36 (POST)
+------------------------------------------------------------
+20200823-15:58:14(1598191094.9731 - 0.00005) - ajax-json.TcDebug::__construct                              ;System Debug Level = 9
+20200823-15:58:14(1598191094.9732 - 0.00006) - ajax-json.TcDebug::setFile                                  ;D:/XAMPP/htdocs/b2w_summit/_log/ajax-json(0823-15).txt
+20200823-15:58:14(1598191094.9732 - 0.00007) - ajax-json.TcDB::__construct                                 ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200823-15:58:14(1598191094.9733 - 0.00017) - ajax-json.TcUser::__construct                               ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200823-15:58:14(1598191094.9733 - 0.00017) - ajax-json.TcPackage::__construct                            ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200823-15:58:14(1598191094.9733 - 0.00018) - ajax-json.TcUser::active                                    ;not logged in
+20200823-15:58:14(1598191094.9733 - 0.00019) - ajax-json.TcPackage::getModule                              ;["usulgi","M",false,0]
+20200823-15:58:14(1598191094.9736 - 0.00054) - ajax-json.TcPackage::getForm                                ;["usulgi"]
+20200823-15:58:14(1598191094.9737 - 0.00062) - ajax-json.TcPackage::getForm                                ;Incluindo... D:/XAMPP/htdocs/b2w_summit/_mdl/usu/usulgi.html
+20200823-15:58:14(1598191094.9738 - 0.00071) - ajax-json.TcPackage::processModule                          ;usulgi
+20200823-15:58:14(1598191094.9738 - 0.00072) - ajax-json.TcPackage::processModule                          ;usulgi
+20200823-15:58:14(1598191094.9738 - 0.00073) - ajax-json.TcPackage::writePackage                           ;
+20200823-15:58:14(1598191094.9739 - 0.00078) - ajax-json.TcPackage::__destruct                             ;
+20200823-15:58:14(1598191094.9739 - 0.00078) - ajax-json.TcUser::__destruct                                ;
+20200823-15:58:14(1598191094.9739 - 0.00079) - ajax-json.TcDB::__destruct                                  ;
+20200823-15:58:14(1598191094.9739 - 0.00079) - ajax-json.TcDebug::__destruct                               ;
+20200823-15:58:14(1598191094.9739 - 0.00079) - ajax-json.TcDebug::save                                     ;Linhas : 16
+20200823-15:58:15(1598191095.0110 - 0.03788) - ajax-json.TcDebug::TcDebug::save.EOF - FILE                 ;
+------------------------------------------------------------
+IP : ::1(9)
+------------------------------------------------------------
+ES       :D:/XAMPP/htdocs/ame/
+ES_LIB   :D:/XAMPP/htdocs/ame/_lib/
+ES_HTML  :D:/XAMPP/htdocs/ame/html/
+ES_LOG   :D:/XAMPP/htdocs/ame/_log/
+ES_MODULE:D:/XAMPP/htdocs/ame/_mdl/
+------------------------------------------------------------
+USER AGENT:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36 (POST)
+------------------------------------------------------------
+20200823-15:59:39(1598191179.9652 - 0.00004) - ajax-json.TcDebug::__construct                              ;System Debug Level = 9
+20200823-15:59:39(1598191179.9652 - 0.00005) - ajax-json.TcDebug::setFile                                  ;D:/XAMPP/htdocs/ame/_log/ajax-json(0823-15).txt
+20200823-15:59:39(1598191179.9653 - 0.00006) - ajax-json.TcDB::__construct                                 ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200823-15:59:39(1598191179.9656 - 0.00039) - ajax-json.TcUser::__construct                               ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200823-15:59:39(1598191179.9656 - 0.00040) - ajax-json.TcPackage::__construct                            ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200823-15:59:39(1598191179.9656 - 0.00041) - ajax-json.TcUser::active                                    ;not logged in
+20200823-15:59:39(1598191179.9656 - 0.00042) - ajax-json.TcPackage::getModule                              ;["usulgi","M",false,0]
+20200823-15:59:39(1598191179.9660 - 0.00084) - ajax-json.TcPackage::getForm                                ;["usulgi"]
+20200823-15:59:39(1598191179.9661 - 0.00092) - ajax-json.TcPackage::getForm                                ;Incluindo... D:/XAMPP/htdocs/ame/_mdl/usu/usulgi.html
+20200823-15:59:39(1598191179.9662 - 0.00102) - ajax-json.TcPackage::processModule                          ;usulgi
+20200823-15:59:39(1598191179.9662 - 0.00103) - ajax-json.TcPackage::processModule                          ;usulgi
+20200823-15:59:39(1598191179.9662 - 0.00104) - ajax-json.TcPackage::writePackage                           ;
+20200823-15:59:39(1598191179.9663 - 0.00110) - ajax-json.TcPackage::__destruct                             ;
+20200823-15:59:39(1598191179.9663 - 0.00111) - ajax-json.TcUser::__destruct                                ;
+20200823-15:59:39(1598191179.9663 - 0.00111) - ajax-json.TcDB::__destruct                                  ;
+20200823-15:59:39(1598191179.9663 - 0.00112) - ajax-json.TcDebug::__destruct                               ;
+20200823-15:59:39(1598191179.9663 - 0.00112) - ajax-json.TcDebug::save                                     ;Linhas : 16
+20200823-15:59:39(1598191179.9672 - 0.00200) - ajax-json.TcDebug::TcDebug::save.EOF - FILE                 ;

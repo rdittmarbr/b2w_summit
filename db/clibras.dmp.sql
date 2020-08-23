@@ -32,7 +32,7 @@ FLUSH PRIVILEGES;
 
 use clibras;
 
-DROP TABLE IF EXISTS `cl_module`;
+DROP TABLE IF EXISTS 'cl_module';
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `cl_module` (
