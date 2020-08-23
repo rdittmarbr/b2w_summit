@@ -1,0 +1,9 @@
+.imgAviso{
+    height: 100px;
+    width: 100px;
+}
+
+#aviso h1{
+    color: var(--azul-4-color);
+    font-weight: bold;
+}

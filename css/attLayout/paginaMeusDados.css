@@ -1,0 +1,62 @@
+.imgNecessidades{
+    height: 25px;
+    width: 25px;
+}
+
+#paginaMeusDados{
+    width: 100%;
+    height: 85vh;
+
+    background-image: url('../../img/imgsvg/svgAtt/desktop_meusdados.svg');
+    background-repeat: no-repeat;
+    background-size: 600px 600px;
+    background-attachment: fixed;
+    background-origin: border-box;
+    background-color: var(--cinza-1-color);
+}
+
+.caseMeusDados{
+    padding: 20px;
+}
+
+.caseMeusDados label{
+    font-size: 22px;
+}
+
+#paginaMeusDados .custom-control-label::after{
+    top: 0.65rem;
+}
+
+#paginaMeusDados .custom-control-label::before{
+    top: 0.65rem;
+}
+#paginaMeusDados .custom-control{
+    margin-top: 45px;
+}
+
+#paginaMeusDados h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#paginaMeusDados h5{
+}
+
+
+@media (max-width: 1000px){
+    #paginaMeusDados{
+        background-image: url('../../img/imgsvg/svgAtt/fundo_mobile.svg');
+        background-size: auto;
+        background-attachment: local;
+    }
+    #paginaMeusDados .custom-control{
+        margin-top: 0;
+    }
+    #paginaMeusDados h1{
+        text-align: left;
+        }
+    #paginaMeusDados h5{
+        text-align: left;
+    }
+
+}

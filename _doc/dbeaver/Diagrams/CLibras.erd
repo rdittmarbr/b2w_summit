@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram version="1" name="CLibras.erd" time="201907261446">
+	<entities>
+		<data-source id="mariaDB-16c2f5c679a-26c8038a07270a8d">
+			<entity id="1" name="cl_user" fq-name="clibras.cl_user" order="0" x="60" y="40">
+				<path name="clibras"/>
+			</entity>
+			<entity id="2" name="wpcl_links" fq-name="clibras.wpcl_links" order="1" x="1611" y="177">
+				<path name="clibras"/>
+			</entity>
+			<entity id="3" name="wpcl_termmeta" fq-name="clibras.wpcl_termmeta" order="2" x="1321" y="20">
+				<path name="clibras"/>
+			</entity>
+			<entity id="4" name="wpcl_terms" fq-name="clibras.wpcl_terms" order="3" x="1611" y="20">
+				<path name="clibras"/>
+			</entity>
+			<entity id="5" name="wpcl_users" fq-name="clibras.wpcl_users" order="4" x="1321" y="210">
+				<path name="clibras"/>
+			</entity>
+		</data-source>
+	</entities>
+	<notes/>
+	<relations/>
+</diagram>

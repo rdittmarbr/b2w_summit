@@ -1,0 +1,162 @@
+<!-- ##########################################################################################################
+Mantenedor     : Alexandre Carneiro
+Linguaguem     : HTML
+Dependencia    :
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Modulo         :
+########################################################################################################### -->
+
+<div id="ct_usulgi" class="containerLogin centralizaInner">
+	<div class="caseLogin container-fluid">
+		<div class="row">
+			<div class="col-lg-5"> <!-- div do form -->
+				<!-- logo -->
+				<img src="img/imgsvg/svgAtt/clibras_vertical_cor.svg" class="imgLogo img-fluid mx-auto d-block" alt="">
+
+				<div id="login" class="">
+					<div class="caseForm centralizaInner">
+						<!-- form -->
+						<form id="fm_usulgi" name="fm_usulgi" method="post" action="">
+							<fieldset>
+							<input id="in_usulgi_usutpy" name="in_usulgi_usutpy" type="hidden" value="I">
+							<!-- Input necessário para processamento do login (VALUE = I ) para logout VALUE = O  -->
+							<!-- necessário para o usulgi.php -->
+
+							<!-- usuário -->
+							<div class="form-row">
+								<div class="col-12 mb-3">
+									<input id="in_usulgi_usuusu" name="in_usulgi_usuusu" type="text" value=""
+									required autocomplete="off" autofocus placeholder="&#xf007; Usuário" class="form-control form-control-lg">
+								</div>
+							</div>
+
+							<!-- senha -->
+							<div class="form-row">
+								<div class="col-12 mb-3">
+									<input id="in_usulgi_usupas" name="in_usulgi_usupas" type="password"
+									value="" required autocomplete="off" placeholder="&#xf023; Senha" class="form-control form-control-lg" >
+								</div>
+							</div>
+
+							<!-- checkbox -->
+							<div class="form-row">
+								<div class="col-12 mb-3">
+									<div class="custom-control custom-checkbox mb-3">
+										<input id="in_usulgi_usurmb"  name="in_usulgi_usurmb"
+										type="checkbox" value="1" class="custom-control-input"/>
+										<label class="custom-control-label" for="in_usulgi_usurmb">
+											Lembrar usuário
+										</label>
+									</div>
+								</div>
+							</div>
+							</fieldset>
+
+						</form>
+					</div>
+
+					<!-- botão do login -->
+					<div id="botoes" class="caseBotoes">
+						<div class="centralizaInner">
+							<button id="bt_usulgi_usulgi" class="btn btn-primary btn-lg" onclick="gl_Desktop.sendForm(fm_usulgi)">
+								Acessar
+							</button>
+						</div>
+
+						<!-- esqueceu senha -->
+						<div class="centralizaInner tiraPaddingBottom">
+							<span id="bt_usulgi_usuwhi" class="linkEsqueceuSenha" onclick="gl_Desktop.getModule('usupsr')">Esqueceu a senha?</span>
+						</div>
+						<!-- como ter acesso ao clibras -->
+						<div class="centralizaInner tiraPaddingTop">
+							<span id="bt_usulgi_usuwhi" class="linkComoAcessar">Como ter acesso ao CLibras Aberta?</span>
+						</div>
+					</div>
+				</div><script>
+//					blur click down focus keydown keyup mousedown tap touchend touchstart up
+          // a2.addEventListener('show', () => { console.log("onshow")});
+          // a2.addEventListener('load', () => { console.log("onload")});
+          // a2.addEventListener('tap', () => { console.log("ontap")});
+          // a2.addEventListener('up', () => { console.log("onup")});
+          // a2.addEventListener('blur', () => { console.log("onblur")});
+          //           a2.addEventListener('focus', () => { console.log("onfocus")});
+          // a2.addEventListener('touchstart', () => { console.log("ontouchstart")});
+					</script>
+				<!-- CODIFICAÇÃO DA PARTE DO ESQUECEU SENHA -->
+
+				<!-- <div id="esqueceuSenha" class="">
+					<div class="caseForm centralizaInner">
+						<form id="" class="" action="" method="post">
+							<div class="form-row">
+								<div class="col-12 mb-3">
+									<input id="reqSenha" name="reqSenha" type="email" value=""
+									required autocomplete="off" autofocus placeholder="&#xf0e0; E-mail" class="form-control form-control-lg">
+								</div>
+							</div>
+						</form>
+
+					</div>
+
+					<div id="botoes" class="caseBotoes">
+						<div class="centralizaInner">
+							<button id="btnReqSenha" class="btn btn-primary btn-lg" onclick="">
+								Recuperar minha senha
+							</button>
+						</div>
+
+						<div class="centralizaInner tiraPaddingBottom">
+							<img src="img/imgsvg/svgAtt/voltar.svg" class="imgVoltar" alt="">
+							<span id="" class="linkEsqueceuSenha" onclick="">Voltar ao Login</span>
+						</div>
+
+						<div class="centralizaInner tiraPaddingTop">
+							<span id="" class="linkComoAcessar">Como ter acesso ao CLibras Aberta?</span>
+						</div>
+					</div>
+				</div> -->
+
+			</div>
+
+
+<!-- ########### script para o video ########### -->
+<script type="javascript">
+	bt_usulgi_usulgi.addEventListener('onMouseEnter', () => { console.log("MouseEnter")});
+	bt_usulgi_usulgi.addEventListener('onMouseOver', () => { console.log("onMouseOver")});
+	var container = id_player;
+	function byVideo() {
+		var exemplo1 = new VideoModel("id_01", "http://clibras.teste.ufpr.br/clibras/_vd/inicio.mp4", "");
+		exemplo1.setContend("Titulo", "Descrição", 0);
+		exemplo1.setReference([
+		    new VideoReferenceModel("id_01", "http://clibras.teste.ufpr.br/clibras/_vd/ufpr_01.png", 01, "Feira de Cursos", "2019", "http://clibras.teste.ufpr.br/clibras/_vd/ufpr.mp4"),
+		    new VideoReferenceModel("id_01", "http://clibras.teste.ufpr.br/clibras/_vd/ufpr_23.png", 23, "Graciela Ines", "Vice Reitora - UFPR", "http://clibras.teste.ufpr.br/clibras/_vd/ufpr.mp4"),
+		    new VideoReferenceModel("id_01", "http://clibras.teste.ufpr.br/clibras/_vd/ufpr_46.png", 46, "Eduardo barra", "Pró-Reitor de Graduação da UFPR", "http://clibras.teste.ufpr.br/clibras/_vd/ufpr.mp4"),
+		    new VideoReferenceModel("id_01", "http://clibras.teste.ufpr.br/clibras/_vd/ufpr_88.png", 88, "Ivan", "Professor do Ensino Médio", "http://clibras.teste.ufpr.br/clibras/_vd/ufpr.mp4"),
+		    new VideoReferenceModel("id_01", "http://clibras.teste.ufpr.br/clibras/_vd/ufpr_117.png", 101, "Processo Seletivo", "Núcleo de Concursos da UFPR", "http://clibras.teste.ufpr.br/clibras/_vd/ufpr.mp4"),
+		    new VideoReferenceModel("id_01", "http://clibras.teste.ufpr.br/clibras/_vd/ufpr_140.png", 144, "Debora", "Alunos de graduação apresentam detalhes do seu curso.", "http://clibras.teste.ufpr.br/clibras/_vd/ufpr.mp4"),
+		    new VideoReferenceModel("id_01", "http://clibras.teste.ufpr.br/clibras/_vd/ufpr_170.png", 170, "Informação", "Informações sobre a Feira", "http://clibras.teste.ufpr.br/clibras/_vd/ufpr.mp4")
+		]);
+
+		var player1 = new VideoPlayerController(exemplo1);
+		clearChild(id_player);
+		player1.createVideo(container);
+	}
+
+	function autoOcultar() {
+		var o = $o("v-controlsid_01");
+		if( isDom(o)) {
+			setAttribute( o , {style : {transform: "translateX(90%)"}});
+		}
+		setTimeout( function() { autoOcultar() } , 7000 );
+	}
+	setTimeout( function() { autoOcultar() }, 7000);
+</script>
+<!-- ########################################## -->
+
+			<div class="col-lg-7"> <!-- div do video -->
+				<div id="id_player" class="centralizaInner">
+					<img src="img/imgsvg/svgAtt/querovervideo.svg" class="imgVerVideo" alt="" onclick="byVideo()">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

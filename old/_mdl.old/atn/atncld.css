@@ -1,0 +1,16 @@
+/*------------------------------------------------------------------------------------------------------------
+Mantenedor     : Alexandre Carneiro
+Linguaguem     : CSS
+Dependencia    :
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Modulo         : Definição do calendário
+Referência     : https://codepen.io/N_QiXin/pen/PrVLGJ
+------------------------------------------------------------------------------------------------------------*/
+#agendar_atendimento .form-control, .custom-select{
+    width: min-content;
+}
+
+#agendar_atendimento .btn-primary{
+    background-color: var(--azul);
+    border-color: var(--azul);
+}

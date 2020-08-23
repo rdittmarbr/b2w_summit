@@ -1,0 +1,65 @@
+/* IMAGENS NAVBAR */
+.imgIconeNav{
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+}
+
+.imgLogoNav{
+    height: 60px;
+    width: 250px;
+}
+
+/* ############### */
+
+nav{
+    z-index: 999;
+}
+
+.navbar{
+    box-shadow:0 0 1em rgba(0,0,0,0.2);
+    /* border: 1px solid red; */
+}
+
+.navbar a{
+    color: var(--azul-3-color);
+    font-weight: bold;
+}
+
+#collapse .btn{
+    color: var(--azul-5-color);
+    font-size: 2rem;
+}
+
+/* #collapse .btn:hover{
+    color: var(--cinza-1-color);
+    background-color: var(--cinza-3-color);
+
+} */
+
+.nav-link {
+    padding:1.5rem 1rem;
+}
+
+/* .nav-item{
+    font-weight: bold;
+} */
+
+.dropdown-menu {
+    top: 70%;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    color: var(--azul-5-color);
+    background-color: var(--cinza-1-color);
+}
+
+.dropdown-menu{
+    background-color: var(--cinza-1-color);
+    box-shadow:0 0 1em rgba(0,0,0,0.25);
+}
+
+.dropdown-item:hover{
+    color: var(--azul-4-color);
+    background-color: var(--cinza-2-color);
+}

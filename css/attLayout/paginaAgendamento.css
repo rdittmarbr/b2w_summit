@@ -1,0 +1,50 @@
+#paginaAgendamento{
+    width: 100%;
+    height: 85vh;
+
+    background-image: url('../../img/imgsvg/svgAtt/desktop_agendamento.svg');
+    background-repeat: no-repeat;
+    background-size: 600px 600px;
+    background-attachment: fixed;
+    background-origin: border-box;
+    background-color: var(--cinza-1-color);
+}
+
+.caseAgendamento{
+    padding: 20px;
+}
+
+.caseAgendamento  textarea{
+    height: 150px;
+}
+
+.caseAgendamento label{
+    font-size: 22px;
+}
+
+#paginaAgendamento  h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#paginaAgendamento  h5{
+}
+
+
+.col-lg-8, .col-lg-4{
+    /* border: 1px solid red; */
+}
+
+@media (max-width: 1000px){
+    #paginaAgendamento{
+        background-image: url('../../img/imgsvg/svgAtt/fundo_mobile.svg');
+        background-size: auto;
+        background-attachment: local;
+    }
+    #paginaMeusDados  h1{
+        text-align: left;
+        }
+    #paginaMeusDados  h5{
+        text-align: left;
+    }
+}

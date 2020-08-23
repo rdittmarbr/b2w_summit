@@ -1,0 +1,228 @@
+/*------------------------------------------------------------------------------------------------------------
+Mantenedor     : Alexandre Carneiro
+Linguaguem     : css
+Dependencia    :
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Modulo         : Definição do login
+------------------------------------------------------------------------------------------------------------*/
+
+/* -------------------- serve pro link de como acessar o CL -------------------- */
+/* .acessarCL p{
+    text-align: center;
+}
+
+.acessarCL a{
+    color: #000;
+}
+
+.acessarCL a:hover{
+    color: #0066cc;
+} */
+/* ----------------------------------------------------------------------------- */
+
+/* VIDEO */
+.videoDiv{
+    /* background-color: pink;
+    border: 3px red solid; */
+    margin-top: 20px;
+    padding: 10px;
+
+    height: 100%;
+    /* max-height: 100%;
+    min-height: 25%; */
+
+    width: 100%;
+    /* max-width: 100%;
+    min-width: 25%;  */
+}
+/* ----------------------------------------------------------------------------- */
+
+/* LOGIN */
+/* .login-block{
+    background-color: var(--azul);
+
+    float:left;
+    width:100%;
+    height: 100vh;
+    padding : 50px 0;
+}
+
+.container{
+    background:#fff;
+    border-radius: 10px;
+    box-shadow:15px 20px 0px rgba(0,0,0,0.1);
+}
+
+.login-sec{
+    padding: 50px 30px;
+    position:relative;
+    overflow: hidden;
+}
+
+.login-sec .copy-text{
+    position:absolute;
+    width:80%; bottom:20px;
+    font-size:13px;
+    text-align:center;
+}
+
+.login-sec h2{
+    margin-bottom:30px;
+    font-weight:800;
+    font-size:30px;
+    color: #0066cc;
+} */
+/* ----------------------------------------------------------------------------- */
+/* BOTÕES DO LOGIN */
+
+/* .btn-clibras:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.btn-clibras {
+  background-color: transparent;
+  background-image: none;
+
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.esqueceuSenha{
+    color: #0066cc;
+}
+
+.acesso{
+    color: #000;
+}
+
+.btn:disabled{
+  display: none;
+  visibility: hidden;
+}
+
+.btn{
+    background-color: #0066cc;
+    border-color: #0066cc;
+    color: #fff;
+}
+
+.botao span{
+    margin: 10px;
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+/* ----------------------------------------------------------------------------- */
+
+
+
+
+
+.tela-login{
+    background-color: var(--azul);
+    float:left;
+    width:100%;
+    height: 100%;
+    padding: 50px 0;
+}
+
+.container-login{
+    padding: 20px;
+    background: var(--gelo);
+    box-shadow:15px 20px 0px rgba(0,0,0,0.1);
+    width: 80%;
+    min-height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 30px;
+    border-radius: 15px;
+}
+
+.login-dados{
+}
+
+.login-dados h1{
+    color: var(--azul);
+    text-align: center;
+    font-weight: bold;
+    font-size: 4em;
+    margin-bottom: 30px;
+}
+
+#botoes .centraliza-in, .custom-control-label{
+    padding: 0;
+}
+
+.btn-clibras:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.btn-clibras {
+  background-color: transparent;
+  background-image: none;
+
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.link{
+    color: var(--azul);
+}
+.link:hover{
+    color: var(--azul-escuro);
+}
+
+.img-vervideo{
+    height: 60%;
+    width: 60%;
+    cursor: pointer;
+}
+
+
+@media (max-width: 991px){
+    #ct_usulgi .container-login{
+        width: 98%;
+        font-size: 2.5em;
+    }
+
+    #ct_usulgi .form-control{
+        font-size: 2.5rem;
+    }
+
+    #ct_usulgi .login-dados .btn {
+        font-size: 3.5rem;
+    }
+
+    #ct_usulgi .btn {
+        border-radius: 0.7rem;
+    }
+
+    #ct_usulgi .custom-control-label::before, .custom-control-label::after {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    #ct_usulgi .custom-control-label{
+        padding-left: 30px;
+    }
+
+    #ct_usulgi .img-vervideo{
+        height: 80%;
+        width: 80%;
+    }
+}

@@ -1,0 +1,167 @@
+<!-- ##########################################################################################################
+Mantenedor     : Alexandre Carneiro
+Linguaguem     : HTML
+Dependencia    :
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Modulo         :
+########################################################################################################### -->
+<div id="meus_dados" class="conteudo">
+  <div class="row">
+    <div class="col-sm-12">
+      <h1>
+        <img src="img/imgsvg/icone_usuarioAmarelo.svg" class="icone-da-pagina" alt=""> Meus dados
+      </h1>
+
+      <form id="fm_usudta" class="needs-validation" novalidate>
+        <!-- NOME E NOME SOCIAL -->
+        <div class="form-colum">
+          <div class="col-6 mb-3" >
+            <img id="in_usudta_usuavt" src="" alt="Imagem" style="width:75px;height:75px;">
+            <span onclick="">Alterar</span>
+          </div>
+
+<!-- captura da Imagem do Usuário -->
+<div class="area">
+      <video autoplay="" id="webCamera" muted="" playsinline=""></video>
+			<input  type="text" id="base_img" name="base_img"/>
+			<button type="button" onclick="gl_Desktop.openCamera()">Abrir Câmera Global</button>
+      <button type="button" onclick="loadCamera()">Abrir Câmera</button>
+			<button type="button" onclick="takeSnapShot()">Snap Shot</button>
+      <button type="button" onclick="closeCamera()">Fechar</button>
+      <button type="button" onclick="mirrorCamera()">Espelhar</button>
+      <div id="canvas">
+
+        </div>
+</div>
+
+        <div class="form-colum">
+          <div class="form-row">
+            <div class="col-6 mb-3">
+              <label for="in_usudta_usunme" lb="lb_usudta_usunme">Nome</label>
+              <input id="in_usudta_usunme" name="in_usudta_usunme" type="text" class="form-control" value="" disabled>
+            </div>
+
+            <div class="col-6 mb-3">
+              <label for="in_usudta_usunms" id="lb_usudta_usunms">Nome social</label>
+              <input id="in_usudta_usunms" name="in_usudta_usunms" type="text" class="form-control" value="">
+            </div>
+          </div>
+
+          <!-- GRR E ENDEREÇO -->
+          <div class="form-row">
+            <div class="col-6 mb-3">
+              <label for="in_usudta_usurge" id="lb_usudta_usurge">GRR</label>
+              <input id="in_usudta_usurge" name="in_usudta_usurge" type="text" class="form-control" value="" disabled>
+            </div>
+
+            <div class="col-6 mb-3">
+              <label for="in_usudta_usupne" id="lb_usudta_usupne" >Telefone</label>
+              <input id="in_usudta_usupne" name="in_usudta_usupne" type="tel" class="form-control" value="" pattern="[0-9]{3}-[0-9]{5}-[0-9]{4}">
+            </div>
+          </div>
+
+          <!-- E-MAIL E E-MAIL SECUNDÁRIO -->
+          <div class="form-row">
+            <div class="col-6 mb-3">
+              <label for="in_usudta_usueml" id="lb_usudta_usueml" >E-mail</label>
+              <input id="in_usudta_usueml" name="in_usudta_usueml" type="email" class="form-control" disabled>
+            </div>
+
+            <div class="col-6 mb-3">
+              <label for="in_usudta_usuema" id="lb_usudta_usuema" >E-mail secundário</label>
+              <input id="in_usudta_usuema" name="in_usudta_usuema" type="email" class="form-control">
+            </div>
+          </div>
+        </div>
+
+        <div class="form-row">
+
+          <div class="col-4 mb-3 ">
+            <div class="custom-control custom-checkbox mb-3">
+            <input type="checkbox" class="custom-control-input" id="surdo_meusdados">
+            <label class="custom-control-label" for="surdo_meusdados">
+                <img id="btnimagem" src="img/imgsvg/icone_surdo.svg" class="icone-pequeno-formulario" alt=""> Surdo
+            </label>
+            </div>
+
+            <div class="custom-control custom-checkbox mb-3">
+                <input type="checkbox" class="custom-control-input" id="cego_meusdados">
+                <label class="custom-control-label" for="cego_meusdados">
+
+                    <img id="btnimagem" src="img/imgsvg/icone_cego.svg" class="icone-pequeno-formulario" alt=""> Cego
+                </label>
+            </div>
+
+            <div class="custom-control custom-checkbox mb-3">
+              <input type="checkbox" class="custom-control-input" id="daltonico_meusdados">
+              <label class="custom-control-label" for="daltonico_meusdados">
+                <img id="btnimagem" src="img/imgsvg/icone_daltonico.svg" class="icone-pequeno-formulario" alt=""> Daltônico
+              </label>
+            </div>
+
+          </div>
+
+          </div> <!-- eof form-row -->
+        </form>
+      </div> <!-- eof form-col -->
+
+      <button class="btn btn-primary" type="submit" onclick="gl_Desktop.sendForm(fm_usudta)">Atualizar</button>
+      <button class="btn btn-primary" type="submit" onclick="gl_Desktop.sendForm(fm_usudta)">Solicitar Correção</button>
+    </div>
+  </div>
+</div>
+
+
+<script>
+function loadCamera() {
+	//Captura elemento de vídeo
+	var video = document.querySelector("#webCamera");
+	//As opções abaixo são necessárias para o funcionamento correto no iOS
+  video.setAttribute('autoplay', '');
+  video.setAttribute('muted', '');
+  video.setAttribute('playsinline', '');
+  //--
+
+	//Verifica se o navegador pode capturar mídia
+	if (navigator.mediaDevices.getUserMedia) {
+		navigator.mediaDevices.getUserMedia({audio: false, video: {facingMode: 'user'}}).then(
+      function(stream) {
+			     //Definir o elemento vídeo a carregar o capturado pela webcam
+			        video.srcObject = stream;
+		       }
+    )
+		.catch(function(error) {
+			alert("Oooopps... Falhou :'(");
+		});
+	}
+}
+
+function mirrorCamera() {
+  setAttribute( webCamera, {style: "transform: rotateY(180deg);-webkit-transform:rotateY(180deg);-moz-transform:rotateY(180deg);"} );
+}
+
+function closeCamera() {
+
+}
+
+ function takeSnapShot(){
+	//Captura elemento de vídeo
+	var video = document.querySelector("#webCamera");
+
+	//Criando um canvas que vai guardar a imagem temporariamente
+	var b = document.createElement('canvas');
+	b.width = video.videoWidth;
+	b.height = video.videoHeight;
+	var ctx = b.getContext('2d');
+
+	//Desenhando e convertendo as dimensões
+	ctx.drawImage(video, 0, 0, b.width, b.height);
+
+	//Criando o JPG
+	var dataURI = b.toDataURL('image/jpeg'); //O resultado é um BASE64 de uma imagem.
+	document.querySelector("#base_img").value = dataURI;
+  canvas.appendChild(b);
+
+}
+
+</script>

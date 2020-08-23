@@ -1,0 +1,89 @@
+/*------------------------------------------------------------------------------------------------------------
+Mantenedor     :
+Linguaguem     : css
+Dependencia    :
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Modulo         :
+------------------------------------------------------------------------------------------------------------*/
+
+body, h1, h2, h3, a, p, label, div, span, table, table caption, table tr,table td, table th, form, select, button, img, dl, ul, ol, dt, dd, address {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  background-color:#E5E5E5;
+}
+
+h1{ font-size:1.5rem; }
+h2{ font-size:1.25rem; }
+h3{ font-size:1.1rem; }
+
+a{ font-weight:bold; }
+table caption, table th, table td{
+  height:1.5rem;
+  vertical-align:middle;
+}
+
+table caption, table th{
+  text-align:center;
+}
+
+form{
+  display:inline
+}
+
+/* sinput, stextarea {
+  padding-left:2px;
+  padding-right:2px;
+  border:1px solid #3A8F8F;
+} */
+
+.disabled .disabled .disabled{
+  background:#FFFFD4;
+  color:#000000;
+}
+
+input.skip {
+  background:#E3E6DF;
+}
+
+input.consult {
+  background:#E3E6DF;
+}
+
+select {
+  padding-left:0px;
+  padding-right:0px;
+  border:1px solid #3A8F8F;
+}
+
+.hide {
+  display:none;
+}
+
+.noborder {
+   border:0px;
+}
+
+/***********************************************************/
+/* links */
+a {
+  color: rgb(255, 255, 255);
+}
+
+/* link nÃ£o visitado */
+a:link {
+}
+
+/* link visitado */
+a:visited {
+}
+
+/* mouse link */
+a:hover {
+}
+
+/* link selecionado */
+a:active {
+}
+/***********************************************************/

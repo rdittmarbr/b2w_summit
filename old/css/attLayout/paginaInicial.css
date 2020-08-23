@@ -1,0 +1,50 @@
+/* imagens */
+
+.imgCaseAtendimento{
+    height: 200px;
+    width: 200px;
+}
+
+#paginaInicial{
+    /* height: 90vh; */
+    width: 100%;
+
+    background-image: url('../../img/imgsvg/svgAtt/fundo_desktop.svg');
+    background-repeat: no-repeat;
+    background-color: var(--cinza-1-color);
+}
+
+.caseAtendimento{
+    width: 550px;
+    height: 400px;
+
+    margin-top: 100px;
+
+    background: #fff;
+    box-shadow:0 0 1em rgba(0,0,0,0.5);
+    border-radius: 30px;
+}
+
+#paginaInicial a{
+    text-decoration: none;
+    text-align: center;
+
+}
+
+#paginaInicial h1{
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--cinza-5-color);
+}
+
+#paginaInicial h5{
+    font-size: 1.75rem;
+    color: var(--cinza-4-color);
+}
+
+@media (max-width: 1400px){
+    .imgCaseAtendimento{
+        height: 160px;
+        width: 160px;
+    }
+}

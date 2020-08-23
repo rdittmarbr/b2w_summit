@@ -1,0 +1,40 @@
+/*------------------------------------------------------------------------------------------------------------
+Mantenedor     : Alexandre Carneiro
+Linguaguem     : css
+Dependencia    :
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Modulo         : Definição da animação
+------------------------------------------------------------------------------------------------------------*/
+
+
+.svg-wrapper {
+  position: relative;
+
+  transform: translateY(-50%);
+  /* margin-top: 30px; */
+  margin: 30px auto;
+  width: 320px;
+}
+.shape {
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -474;
+  stroke-width: 8px;
+  fill: transparent;
+  stroke: #99ccff;
+  border-bottom: 5px solid black;
+  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+.text {
+  font-size: 30px;
+  line-height: 32px;
+  letter-spacing: 8px;
+  color: #0066cc;
+  top: -48px;
+  position: relative;
+  text-align: center
+}
+.svg-wrapper:hover .shape {
+  stroke-width: 8px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 760;
+}

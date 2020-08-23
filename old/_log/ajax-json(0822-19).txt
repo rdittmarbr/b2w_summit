@@ -1,0 +1,80 @@
+------------------------------------------------------------
+IP : 127.0.0.1(9)
+------------------------------------------------------------
+ES       :/var/www/html/ame/
+ES_LIB   :/var/www/html/ame/_lib/
+ES_HTML  :/var/www/html/ame/html/
+ES_LOG   :/var/www/html/ame/_log/
+ES_MODULE:/var/www/html/ame/_mdl/
+------------------------------------------------------------
+USER AGENT:Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0 (POST)
+Host:localhost
+User-Agent:Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0
+Accept:*/*
+Accept-Language:pt-BR
+Accept-Encoding:gzip, deflate
+Content-Type:application/x-www-form-urlencoded
+Content-Length:12
+Origin:http://localhost
+Connection:keep-alive
+Referer:http://localhost/ame/logout.php
+Cookie:ca2ce7b12d96787788d960a7da48256e=r66kkc4n0dlpqa5m2mrbn3avue; 347a11d1e4d12e53ac0b397425571aca=75g0jb21sd73tr52ngnn4n5caf
+------------------------------------------------------------
+20200822-19:08:47(1598134127.4079 - 0.00012) - ajax-json.TcDebug::__construct                              ;System Debug Level = 9
+20200822-19:08:47(1598134127.4080 - 0.00019) - ajax-json.TcDebug::setFile                                  ;/var/www/html/ame/_log/ajax-json(0822-19).txt
+20200822-19:08:47(1598134127.4080 - 0.00023) - ajax-json.TcDB::__construct                                 ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-19:08:47(1598134127.4081 - 0.00035) - ajax-json.TcUser::__construct                               ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-19:08:47(1598134127.4082 - 0.00039) - ajax-json.TcPackage::__construct                            ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-19:08:47(1598134127.4082 - 0.00042) - ajax-json.TcUser::active                                    ;not logged in
+20200822-19:08:47(1598134127.4082 - 0.00045) - ajax-json.TcPackage::getModule                              ;["usulgi","M",false,0]
+20200822-19:08:47(1598134127.4083 - 0.00054) - ajax-json.TcPackage::getForm                                ;["usulgi"]
+20200822-19:08:47(1598134127.4084 - 0.00058) - ajax-json.TcPackage::getForm                                ;Incluindo... /var/www/html/ame/_mdl/usu/usulgi.html
+20200822-19:08:47(1598134127.4086 - 0.00077) - ajax-json.TcPackage::processModule                          ;usulgi
+20200822-19:08:47(1598134127.4086 - 0.00081) - ajax-json.TcPackage::processModule                          ;usulgi
+20200822-19:08:47(1598134127.4086 - 0.00084) - ajax-json.TcPackage::writePackage                           ;
+20200822-19:08:47(1598134127.4087 - 0.00092) - ajax-json.TcPackage::__destruct                             ;
+20200822-19:08:47(1598134127.4087 - 0.00095) - ajax-json.TcUser::__destruct                                ;
+20200822-19:08:47(1598134127.4088 - 0.00098) - ajax-json.TcDB::__destruct                                  ;
+20200822-19:08:47(1598134127.4088 - 0.00101) - ajax-json.TcDebug::__destruct                               ;
+20200822-19:08:47(1598134127.4088 - 0.00103) - ajax-json.TcDebug::save                                     ;Linhas : 16
+20200822-19:08:47(1598134127.4094 - 0.00159) - ajax-json.TcDebug::TcDebug::save.EOF - FILE                 ;
+------------------------------------------------------------
+IP : 127.0.0.1(9)
+------------------------------------------------------------
+ES       :/var/www/html/ame/
+ES_LIB   :/var/www/html/ame/_lib/
+ES_HTML  :/var/www/html/ame/html/
+ES_LOG   :/var/www/html/ame/_log/
+ES_MODULE:/var/www/html/ame/_mdl/
+------------------------------------------------------------
+USER AGENT:Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0 (POST)
+Host:localhost
+User-Agent:Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0
+Accept:*/*
+Accept-Language:pt-BR
+Accept-Encoding:gzip, deflate
+Content-Type:application/x-www-form-urlencoded
+Content-Length:12
+Origin:http://localhost
+Connection:keep-alive
+Referer:http://localhost/ame/
+Cookie:ca2ce7b12d96787788d960a7da48256e=r66kkc4n0dlpqa5m2mrbn3avue; 347a11d1e4d12e53ac0b397425571aca=75g0jb21sd73tr52ngnn4n5caf
+------------------------------------------------------------
+20200822-19:53:34(1598136814.5687 - 0.00015) - ajax-json.TcDebug::__construct                              ;System Debug Level = 9
+20200822-19:53:34(1598136814.5688 - 0.00022) - ajax-json.TcDebug::setFile                                  ;/var/www/html/ame/_log/ajax-json(0822-19).txt
+20200822-19:53:34(1598136814.5688 - 0.00027) - ajax-json.TcDB::__construct                                 ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-19:53:34(1598136814.5689 - 0.00037) - ajax-json.TcUser::__construct                               ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-19:53:34(1598136814.5690 - 0.00041) - ajax-json.TcPackage::__construct                            ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-19:53:34(1598136814.5690 - 0.00044) - ajax-json.TcUser::active                                    ;not logged in
+20200822-19:53:34(1598136814.5690 - 0.00047) - ajax-json.TcPackage::getModule                              ;["usulgi","M",false,0]
+20200822-19:53:34(1598136814.5692 - 0.00063) - ajax-json.TcPackage::getForm                                ;["usulgi"]
+20200822-19:53:34(1598136814.5692 - 0.00068) - ajax-json.TcPackage::getForm                                ;Incluindo... /var/www/html/ame/_mdl/usu/usulgi.html
+20200822-19:53:34(1598136814.5694 - 0.00089) - ajax-json.TcPackage::processModule                          ;usulgi
+20200822-19:53:34(1598136814.5695 - 0.00093) - ajax-json.TcPackage::processModule                          ;usulgi
+20200822-19:53:34(1598136814.5695 - 0.00096) - ajax-json.TcPackage::writePackage                           ;
+20200822-19:53:34(1598136814.5696 - 0.00103) - ajax-json.TcPackage::__destruct                             ;
+20200822-19:53:34(1598136814.5696 - 0.00106) - ajax-json.TcUser::__destruct                                ;
+20200822-19:53:34(1598136814.5696 - 0.00109) - ajax-json.TcDB::__destruct                                  ;
+20200822-19:53:34(1598136814.5697 - 0.00112) - ajax-json.TcDebug::__destruct                               ;
+20200822-19:53:34(1598136814.5697 - 0.00117) - ajax-json.TcDebug::save                                     ;Linhas : 16
+20200822-19:53:34(1598136814.5704 - 0.00182) - ajax-json.TcDebug::TcDebug::save.EOF - FILE                 ;

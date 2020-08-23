@@ -1,0 +1,64 @@
+<nav id="navbarCLibras"class="navbar navbar-expand-lg navbar-light bg-light text-uppercase" >
+	<div class="container-fluid">
+
+		<!-- logo -->
+		<div>
+			<a href="#"  onclick="gl_Desktop.getModule('dskbdy')">
+				<img src="img/imgsvg/svgAtt/clibras_a_cor.svg" class="imgLogoNav" alt="">
+			</a>
+		</div>
+
+		<!-- botão collapse -->
+        <div id="collapse">
+            <button class="btn d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+
+		<!-- Opções de navegação -->
+		<div class="collapse navbar-collapse" id="navbar">
+            <hr>
+			<ul class="nav nav-pills ml-auto" role="tablist">
+				<li class="nav-item dropdown">
+					<a id="dropdownAtendimento" class="nav-link dropdown-toggle" href="#Atendimento" role="button" data-toggle="dropdown" aria-haspopup="true">
+						<img src="img/imgsvg/svgAtt/menu_atendimento.svg" class="imgIconeNav" alt=""> Atendimento
+					</a>
+
+					<div class="dropdown-menu" aria-labelledby="dropdownAtendimento">
+						<a class="dropdown-item" href="#" onclick="gl_Desktop.getModule('atnopt')">
+							<img src="img/imgsvg/svgAtt/menu_atendimento.svg" class="imgIconeNav" alt=""> Intérprete Online
+						</a>
+
+						<a class="dropdown-item" href="#" onclick="gl_Desktop.getModule('atncld')">
+							<img src="img/imgsvg/svgAtt/menu_atendimento.svg" class="imgIconeNav" alt=""> Agendamento
+						</a>
+					</div>
+				</li>
+
+				<li class="nav-item dropdown">
+					<a id="dropdownMinhaConta" class="nav-link dropdown-toggle" href="#MinhaConta" role="button" data-toggle="dropdown" aria-haspopup="true">
+						<img src="img/imgsvg/svgAtt/menu_configurações.svg" class="imgIconeNav" alt=""> Configurações
+					</a>
+					<div class="dropdown-menu" aria-labelledby="dropdownMinhaConta">
+						<a class="dropdown-item" href="#" onclick="gl_Desktop.getModule('usudta')">
+							<img src="img/imgsvg/svgAtt/menu_meusdados.svg" class="imgIconeNav" alt=""> Meus dados
+						</a>
+						<a class="dropdown-item" href="#" onclick="gl_Desktop.getModule('usupss')">
+							<img src="img/imgsvg/svgAtt/menu_mudarsenha.svg" class="imgIconeNav" alt=""> Mudar senha
+						</a>
+						<a class="dropdown-item" href="#" onclick="gl_Desktop.getModule('ususys')">
+							<img src="img/imgsvg/svgAtt/menu_sistemas.svg" class="imgIconeNav" alt=""> Sistema
+						</a>
+					</div>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="logout.php">
+						<img src="img/imgsvg/svgAtt/menu_sair.svg" class="imgIconeNav" alt=""> Sair
+					</a>
+				</li>
+			</ul>
+		</div>
+
+	</div>
+</nav>

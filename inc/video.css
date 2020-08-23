@@ -1,0 +1,151 @@
+.container_X {
+    display: flex;
+    background-color: rgba(165, 34, 34, 0.86);
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    position: absolute;
+    width: 30%;
+    height:30%;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.video {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    background-color: rgba( 0, 0, 0, 0.7)
+}
+
+.c-video {
+    /* background-color:rgba(0, 0, 0, 0.9); */
+
+display: flex;
+    width: 100%;
+    max-width: 100%;
+
+    height: 100%;
+    min-height:min-content;
+    max-height: 100%;
+
+    position: relative;
+    overflow: hidden;
+
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+.v-controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 55%;
+    transition: all 0.5s;
+    /* transform: translateX(); */
+}
+
+
+.listDiv {
+    flex-grow: 9;
+    /* width: 90%; */
+    height: 100%;
+    overflow-y: scroll;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+
+.buttonListShow {
+    background: rgba(0, 0, 0, 0.7);
+    /* width: 10%; */
+    flex-grow: 1;
+
+    margin-bottom: 10%;
+    padding: 6px;
+    height: min-content;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.videoItemBox {
+    padding: 6px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.videoPreview {
+    /* flex-grow: 0; */
+    justify-content: center;
+    align-content: center;
+    height: auto;
+    /* = 7*9 */
+    width: 112px;
+    /* = 7*16 */
+    max-width: 35%;
+    background: rgba(250, 250, 250, 0.9)
+}
+
+.videoTitle {
+    color: white;
+    font-size: 16px;
+    width: max-content;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+.videoDescrption {
+    color: rgb(255, 255, 255);
+    /* width: max-content; */
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.videoContend {
+    width: 65%;
+    padding: 20px;
+}
+
+
+.buttonBackDiv {
+    display: flex;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex-wrap: wrap;
+    background: rgba(0, 0, 0, 0.7);
+    top: 0;
+    width: min-content;
+    height: min-content;
+    padding: 6px;
+    margin: 12px;
+    border-radius: 100%;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    display: inline-block;
+    width: max-content;
+    font-size: 24px;
+    margin: 6px;
+    text-align: center;
+    color: #fff;
+    z-index: 999;
+    -webkit-font-smoothing: antialiased;
+}

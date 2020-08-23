@@ -1,0 +1,96 @@
+<div id="paginaAgendamento">
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="textoPage">
+                <div class="centralizaInner">
+                    <img src="img/imgsvg/svgAtt/agendamento.svg" class="imgAgendamentoDispMovel" alt="">
+                </div>
+
+                <div class="">
+                    <h1>Agendamento</h1>
+                    <h5>Para realizar um agendamento é necessário que os espaços ao lado sejam preenchidos.</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-8">
+            <div class="caseAgendamento">
+                <form class="needs-validation" novalidate>
+                    <div class="form-row">
+                        <!-- Data -->
+                        <div class="col-lg-6 mb-3">
+                            <label for="data_atendimento">Data</label>
+                            <br/>
+                            <input id="data_atendimento" type="date" class="form-control-lg" required>
+                            <div class="invalid-feedback">
+                                Insira uma data válida!
+                            </div>
+                        </div>
+
+                        <!-- Horário -->
+                        <div class="col-lg-6 mb-3">
+                            <label for="hora_atendimento">Horário</label>
+                            <br/>
+                            <input id="hora_atendimento" type="time" class="form-control-lg" required>
+                            <br/>
+                            <small>Horários de atendimento: das 08:00 às 18:00</small>
+                            <div class="invalid-feedback">
+                                Insira um horário válido!
+                            </div>
+                        </div>
+
+                        <!-- Departamento -->
+                        <div class="col-lg-3 mb-3">
+                            <label for="departamento_atendimento">Departamento</label>
+                            <br/>
+                            <div class="form-group">
+                                <select id="departamento_atendimento" class="custom-select-lg"  required>
+                                    <option value="" selected>Selecione uma opção</option>
+                                    <option value="PRAE">PRAE</option>
+                                    <option value="Secretaria de curso">Secretaria de curso</option>
+                                    <option value="Biblioteca">Biblioteca</option>
+                                    <option value="Outro">Outro</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Selecione uma opção
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--  -->
+                        <div class="col-lg-3 mb-3">
+                            <label for="departamento_atendimento">Presencial?</label>
+                            <br/>
+                            <div class="form-group">
+                                <select id="departamento_atendimento" class="custom-select-lg"  required>
+                                    <option value="" selected>Selecione uma opção</option>
+                                    <option value="sim">Sim</option>
+                                    <option value="nao">Não</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Selecione uma opção
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Assunto -->
+                        <div class="col-lg-6 mb-3">
+                            <label for="assunto-agendamento">Assunto</label>
+                            <br/>
+                            <textarea id="assunto-agendamento" class="form-control-lg" cols="30" placeholder="Escreva aqui o assunto que será tratado no atendimento." required></textarea>
+                            <div class="invalid-feedback">
+                                Informe o assunto!
+                            </div>
+                        </div>
+
+                    </div>
+
+                </form>
+                <div class="centralizaInner">
+                    <button class="btn-lg" type="submit">Agendar</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

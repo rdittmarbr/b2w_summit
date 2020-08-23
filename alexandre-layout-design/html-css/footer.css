@@ -1,0 +1,17 @@
+/*------------------------------------------------------------------------------------------------------------
+Mantenedor     : Alexandre Carneiro
+Linguaguem     : CSS
+Dependencia    :
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Modulo         : Definição do footer
+------------------------------------------------------------------------------------------------------------*/
+
+footer{
+    /* position: fixed;
+    bottom: 0;
+    left: 0; */
+    height: min-content;
+    width: 100%;
+    background-color: var(--footer-color);
+    text-align: justify;
+}

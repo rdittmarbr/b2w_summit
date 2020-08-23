@@ -1,0 +1,292 @@
+<style media="screen">
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+}
+.fa-2x {
+font-size: 2em;
+}
+.fa {
+position: relative;
+display: table-cell;
+width: 60px;
+height: 36px;
+text-align: center;
+vertical-align: middle;
+font-size:20px;
+}
+
+
+.main-menu:hover,nav.main-menu.expanded {
+width:250px;
+overflow:visible;
+}
+
+.main-menu {
+background:#212121;
+border-right:1px solid #e5e5e5;
+position:absolute;
+top:0;
+bottom:0;
+height:100%;
+left:75;
+width:60px;
+overflow:hidden;
+-webkit-transition:width .05s linear;
+transition:width .05s linear;
+-webkit-transform:translateZ(0) scale(1,1);
+z-index:1000;
+}
+
+.main-menu>ul {
+margin:7px 0;
+}
+
+.main-menu li {
+position:relative;
+display:block;
+width:250px;
+}
+
+.main-menu li>a {
+position:relative;
+display:table;
+border-collapse:collapse;
+border-spacing:0;
+color:#999;
+ font-family: arial;
+font-size: 14px;
+text-decoration:none;
+-webkit-transform:translateZ(0) scale(1,1);
+-webkit-transition:all .1s linear;
+transition:all .1s linear;
+
+}
+
+.main-menu .nav-icon {
+position:relative;
+display:table-cell;
+width:60px;
+height:36px;
+text-align:center;
+vertical-align:middle;
+font-size:18px;
+}
+
+.main-menu .nav-text {
+position:relative;
+display:table-cell;
+vertical-align:middle;
+width:190px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+
+.no-touch .scrollable.hover {
+overflow-y:hidden;
+}
+
+.no-touch .scrollable.hover:hover {
+overflow-y:auto;
+overflow:visible;
+}
+
+a:hover,a:focus {
+text-decoration:none;
+}
+
+nav {
+-webkit-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+-o-user-select:none;
+user-select:none;
+}
+
+nav ul,nav li {
+outline:0;
+margin:0;
+padding:0;
+}
+.main-menu li:hover>a,nav.main-menu li.active>a,.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,.dropdown-menu>.active>a,.dropdown-menu>.active>a:hover,.dropdown-menu>.active>a:focus,.no-touch .dashboard-page nav.dashboard-menu ul li:hover a,.dashboard-page nav.dashboard-menu ul li.active a {
+color:#fff;
+background-color:#5fa2db;
+}
+.area {
+float: left;
+background: #e2e2e2;
+width: 100%;
+height: 100%;
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wpr24bNCNEoFTpS2BTjF6FB5E.woff) format('woff');
+}
+
+</style>
+
+<div id="id_sysnav">
+  <nav class="main-menu" style="display:none">
+    <ul>
+      <li>
+        <a href="http://justinfarrow.com">
+          <i class="fa fa-home fa-2x"></i>
+          <span class="nav-text">Dashboard</span>
+        </a>
+
+      </li>
+      <li class="has-subnav">
+        <a href="#">
+          <i class="fa fa-laptop fa-2x"></i>
+          <span class="nav-text">Stars Components</span>
+        </a>
+
+      </li>
+      <li class="has-subnav">
+        <a href="#">
+          <i class="fa fa-list fa-2x"></i>
+          <span class="nav-text">Forms</span>
+        </a>
+
+      </li>
+      <li class="has-subnav">
+        <a href="#">
+          <i class="fa fa-folder-open fa-2x"></i>
+          <span class="nav-text">Pages</span>
+        </a>
+
+      </li>
+      <li>
+        <a href="#">
+          <i class="fa fa-bar-chart-o fa-2x"></i>
+          <span class="nav-text">Graphs and Statistics</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fa fa-font fa-2x"></i>
+          <span class="nav-text">Quotes</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fa fa-table fa-2x"></i>
+          <span class="nav-text">Tables</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fa fa-map-marker fa-2x"></i>
+          <span class="nav-text">Maps</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fa fa-info fa-2x"></i>
+          <span class="nav-text">Documentation</span>
+        </a>
+      </li>
+    </ul>
+
+    <style media="screen">
+      .main-menu>ul.logout {
+      position:absolute;
+      left:0;
+      bottom:0;
+      }
+    </style>
+
+    <ul class="logout">
+      <li>
+        <a href="#">
+          <i class="fa fa-power-off fa-2x"></i>
+          <span class="nav-text">Logout</span>
+        </a>0
+      </li>
+    </ul>
+  </nav>
+
+  <style media="screen">
+    .menu-hide {
+bottom: initial;
+left: 0;
+top: 50vh;
+margin: -5rem 0 0 0;
+width: 2.5rem;
+height: auto;
+flex-wrap: wrap;
+background:#212121;
+border-right:1px solid #e5e5e5;
+z-inde:90000;color:#999;
+    }
+  </style>
+  <div class="menu-hide"  style="display:none">
+    <i class="fa fa-info fa-2x">asdf</i>
+  </div>
+<style >
+.menu-left.floating-share {
+    position: fixed;
+    transition: .3s;
+    z-index: 9;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+menu-left.floating-share a {
+    flex-grow: 0;
+    border: 1px solid #c2c0d6;
+    border-left: 0;
+    border-bottom: 0;
+}
+.menu-left a {
+    display: block;
+    flex-grow: 0;
+    color: #1e22ff;
+    border: 1px solid #c2c0d6;
+    border-right: 0;
+    background: #fff;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding-top: .4rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+vg:not(:root).svg-inline--fa {
+    overflow: visible;
+}
+.svg-inline--fa.fa-w-10 {
+    width: .625em;
+}
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -.125em;
+}
+</style>
+</div>
+
+<style>
+.menuv {display: flex; x-index:900000}
+.menuv-width {max-width: 45rem;}
+.menuv-left {
+    bottom: initial;
+    left: 0;
+    top: 50vh;
+    margin: -5rem 0 0 0;
+    width: 2.5rem;
+    height: auto;
+    flex-wrap: wrap;
+    background:#FEFEFE;
+}
+.menu-right{float:right;}
+.menu-left {float:left;}
+//.menu-left a {color: #1e22ff;font-size: 1rem;text-align: center;}
+</style>
+<nav class="menuv-width menu-left">
+  <div class="menuv">>
+  </div>
+</nav>

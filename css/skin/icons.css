@@ -1,0 +1,14 @@
+/*-------------------------------------------------------------------------------------------------------------
+Mantenedor     :
+Linguaguem     : css
+Dependencia    :
+Procedencia    : in_ (todas as classes devem ser precedidas por)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Modulo         : Cores dos ícones SVG
+-------------------------------------------------------------------------------------------------------------*/
+in_logo { width:30px;height:30px;}
+in_exit { fill: #5394F2; }
+in_config { fill: #5394F2; }
+in_schedule {fill:#F7FBFB;}
+
+in_schedule in_config {fill:#5394F2;}

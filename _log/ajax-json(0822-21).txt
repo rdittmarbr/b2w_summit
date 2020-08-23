@@ -1,0 +1,29 @@
+------------------------------------------------------------
+IP : 127.0.0.1(9)
+------------------------------------------------------------
+ES       :/var/www/html/ame/
+ES_LIB   :/var/www/html/ame/_lib/
+ES_HTML  :/var/www/html/ame/html/
+ES_LOG   :/var/www/html/ame/_log/
+ES_MODULE:/var/www/html/ame/_mdl/
+------------------------------------------------------------
+USER AGENT:Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0 (POST)
+------------------------------------------------------------
+20200822-21:11:36(1598141496.0124 - 0.00010) - ajax-json.TcDebug::__construct                              ;System Debug Level = 9
+20200822-21:11:36(1598141496.0124 - 0.00013) - ajax-json.TcDebug::setFile                                  ;/var/www/html/ame/_log/ajax-json(0822-21).txt
+20200822-21:11:36(1598141496.0124 - 0.00016) - ajax-json.TcDB::__construct                                 ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-21:11:36(1598141496.0125 - 0.00021) - ajax-json.TcUser::__construct                               ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-21:11:36(1598141496.0125 - 0.00023) - ajax-json.TcPackage::__construct                            ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-21:11:36(1598141496.0125 - 0.00025) - ajax-json.TcUser::active                                    ;not logged in
+20200822-21:11:36(1598141496.0125 - 0.00027) - ajax-json.TcPackage::getModule                              ;["usulgi","M",false,0]
+20200822-21:11:36(1598141496.1454 - 0.13315) - ajax-json.TcPackage::getForm                                ;["usulgi"]
+20200822-21:11:36(1598141496.1455 - 0.13322) - ajax-json.TcPackage::getForm                                ;Incluindo... /var/www/html/ame/_mdl/usu/usulgi.html
+20200822-21:11:36(1598141496.1456 - 0.13330) - ajax-json.TcPackage::processModule                          ;usulgi
+20200822-21:11:36(1598141496.1456 - 0.13334) - ajax-json.TcPackage::processModule                          ;usulgi
+20200822-21:11:36(1598141496.1456 - 0.13338) - ajax-json.TcPackage::writePackage                           ;
+20200822-21:11:36(1598141496.1457 - 0.13349) - ajax-json.TcPackage::__destruct                             ;
+20200822-21:11:36(1598141496.1458 - 0.13351) - ajax-json.TcUser::__destruct                                ;
+20200822-21:11:36(1598141496.1458 - 0.13354) - ajax-json.TcDB::__destruct                                  ;
+20200822-21:11:36(1598141496.1458 - 0.13357) - ajax-json.TcDebug::__destruct                               ;
+20200822-21:11:36(1598141496.1458 - 0.13359) - ajax-json.TcDebug::save                                     ;Linhas : 16
+20200822-21:11:36(1598141496.1464 - 0.13411) - ajax-json.TcDebug::TcDebug::save.EOF - FILE                 ;

@@ -1,0 +1,53 @@
+<!-- ############################################################################################################
+Mantenedor     : Alexandre Carneiro
+Linguaguem     : HTML
+Dependencia    :
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Modulo         :
+############################################################################################################ -->
+
+<div id="atendimento_imediato" class="conteudo">
+    <div class="row">
+        <div class="col-sm-12">
+            <h1>
+                <img src="img/imgsvg/icone_atendimentoAmarelo.svg" class="icone-da-pagina" alt="">
+                Atendimento imediato
+            </h1>
+
+            <div id="opcoes_atendimento" >
+
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<script>
+var biblioteca = new localDeAtendimento("Biblioteca", "img/imgsvg/icone_biblioteca.svg", "id-da-biblioteca");
+var ru = new localDeAtendimento("RU", "img/imgsvg/icone_ru.svg", "id-do-ru");
+var prae = new localDeAtendimento("PRAE", "img/imgsvg/icone_prae.svg", "id-da-prae");
+var locais = [biblioteca, ru, prae];
+
+var elementoPai = document.getElementById("opcoes_atendimento");
+
+var div;
+var h2;
+var img;
+var a;
+
+//fcriando a div class="row"
+var div_row = createElement("div", {class: "row"}, elementoPai);
+
+for (var i = 0; i<locais.length; i++) {
+    var div_col = createElement("div", {class:"col-4"}, div_row);
+    h2 = createElement("h2",{}, div_col);
+    h2.innerText = locais[i].nome;
+    div = createElement("div",{class: "case-atendimento"}, div_col);
+    a = createElement("a", {href: "", target: "_blank"}, div);
+    img = createElement("img",{id: locais[i].id, src: locais[i].src}, a);
+};
+
+
+</script>

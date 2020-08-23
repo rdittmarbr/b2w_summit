@@ -1,0 +1,41 @@
+#paginaMudarSenha{
+    width: 100%;
+    height: 85vh;
+
+    background-image: url('../../img/imgsvg/svgAtt/desktop_mudarsenha.svg');
+    background-repeat: no-repeat;
+    background-size: 600px 600px;
+    background-attachment: fixed;
+    background-origin: border-box;
+    background-color: var(--cinza-1-color);
+}
+
+.caseMudarSenha{
+    padding: 20px;
+}
+
+.caseMudarSenha label{
+    font-size: 22px;
+}
+
+#paginaMudarSenha h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#paginaMudarSenha h5{
+}
+
+@media (max-width: 1000px){
+    #paginaMudarSenha{
+        background-image: url('../../img/imgsvg/svgAtt/fundo_mobile.svg');
+        background-size: auto;
+        background-attachment: local;
+    }
+    #paginaMeusDados h1{
+        text-align: left;
+        }
+    #paginaMeusDados h5{
+        text-align: left;
+    }
+}

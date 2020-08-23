@@ -1,0 +1,43 @@
+/*------------------------------------------------------------------------------------------------------------
+Mantenedor     : Alexandre Carneiro
+Linguaguem     : CSS
+Dependencia    :
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Modulo         :
+------------------------------------------------------------------------------------------------------------*/
+#atendimento_imediato .case-atendimento{
+    height: 250px;
+    width: 250px;
+    padding: 5px;
+
+    text-align: center;
+
+    border: 3px solid var(--azul);
+    border-radius: 10px
+}
+
+#atendimento_imediato .col-4, .row{
+    height: min-content;
+}
+
+#atendimento_imediato .col-4{
+    margin-bottom: 40px;
+    padding: 0 calc(6px + 1%);
+}
+
+#atendimento_imediato .case-atendimento img{
+    height: 100%;
+    width: 100%;
+}
+
+#atendimento_imediato h2{
+    font-size: calc((4vh + 3vw) / 2);
+    max-width: 60%;
+    word-wrap: break-word;
+
+    height: 2.5em;
+
+    flex-direction: column;
+    justify-content: flex-end;
+    display: flex;
+}

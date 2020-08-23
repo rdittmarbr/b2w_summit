@@ -1,0 +1,43 @@
+---------------------------------------------------------------------------------------------------------------
+Sistema CLibras Aberta
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Este arquivo contém a descrição das pastas/arquivso e especificações do sistema
+
+Cada módulo é composto por 3 letras, as quais representam todos os itens de um determinado módulo.
+Todos os formulários, arquivos internos e de manutenção devem estar nesta pasta.
+
+Disposição das pastas/arquivos
+Pastas internas
+  _doc - Documentação
+  _lib - Bibliotecas utilizadas (ES_LIB)
+  _mdl - Módulos (ES_MODULE)
+  _log - Log de utilização  (ES_LOG)
+  _utl - Utilitários e scripts para auxiliar o desenvolvimento
+
+Pastas Públicas
+  css  - CSS
+    [skin] - Contém os arquivos de skin customizados, onde skin contém os arquivos CSS, como por exemplo :
+             UFPR, UAB, CCE. Deve-se utilizar a mesma estrutura de arquivos.
+  js   - Javascript
+  img  - Imagens e vetores
+-------------------------------------------------------------------------------------------------------------*/
+index.php     - CLibras - Sistema para controle de chamadas
+ajax-json.php - Executa de comandos através do AJAX / JSON
+clibras.php   - Retorna o status atual do servidor e configurações.
+
+_lib - Bibliotecas utilizadas
+  _functions.php  - Funções gerais sistemas e configurações
+  _TcDB.php       - Coneccao ao Banco de dados / Manutencao de Dados
+  _TcDebug.php    - Log das classes (Arquivo texto _log )
+  _TcPackage.php  - Gerenciamento de Módulos e Pacotes de Dados
+  _TcUser.php     - Manutenção de usuáros
+
+_mdl - Módulos
+  cck - Manipulação de cookies entre servidor e estação
+  cht - Chat
+  dsk - Desktop
+  hlp - Help
+  usu - usuário
+
+mais informações em _mdl/read-me.txt

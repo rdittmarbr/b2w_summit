@@ -1,0 +1,56 @@
+/* IMAGENS NAVBAR */
+.imgIconeNav{
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+}
+
+/* ############### */
+
+.navbar{
+    box-shadow:0 0 1em rgba(0,0,0,0.2);
+    /* border: 1px solid red; */
+}
+
+.navbar a{
+    color: var(--cinza-4-color);
+    font-weight: bold;
+}
+
+#collapse .btn{
+    color: var(--azul-5-color);
+    font-size: 2rem;
+}
+
+/* #collapse .btn:hover{
+    color: var(--cinza-1-color);
+    background-color: var(--cinza-3-color);
+
+} */
+
+.nav-link {
+    padding:1.5rem 1rem;
+}
+
+/* .nav-item{
+    font-weight: bold;
+} */
+
+.dropdown-menu {
+    top: 70%;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    color: var(--cinza-5-color);
+    background-color: var(--cinza-1-color);
+}
+
+.dropdown-menu{
+    background-color: var(--cinza-1-color);
+    box-shadow:0 0 1em rgba(0,0,0,0.2);
+}
+
+.dropdown-item:hover{
+    color: var(--cinza-4-color);
+    background-color: var(--cinza-2-color);
+}

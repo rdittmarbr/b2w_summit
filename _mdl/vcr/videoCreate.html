@@ -1,0 +1,34 @@
+<script>
+    let constr = new VideoPlayerCreator();
+    // TODO -> Fazer a referencia do zero;
+</script>
+
+<div id="videoCreator" class="videoCreator">
+    <form onSubmit={this.handleSubmit}>
+        <label>
+            Video:
+        </label>
+        <input type="text"
+            value="https://tutorialehtml.com/assets_tutorials/media/Shaun-the-Sheep-The-Movie-Official-Trailer.mp4"
+            onChange="" placeholder="src" />
+    </form>
+    <div id="creatorContainer" style="padding: 10px">
+        Como vai ficar:
+        <script>
+          constr.preview.createVideo($("creatorContainer"));
+        </script>
+    </div>
+    <div class="referencesControls">
+        <div class="referencesControlsButtons">
+            <button onClick="constr.addInternalReference()">New Ref at this time</button>
+            <button onClick="constr.addExternalReference()">Ref To ext</button>
+            <button onClick="constr.finish()">Enviar</button>
+
+            </div>
+        <div class="createListDiv" id="createListDiv">
+            <script>
+                constr.showReference($("createListDiv"), exemplo1.FHistory);
+            </script>
+        </div>
+    </div>
+</div>

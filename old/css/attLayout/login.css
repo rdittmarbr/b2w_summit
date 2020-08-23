@@ -1,0 +1,110 @@
+/* imagens, controle de tamanhos */
+.imgLogo{
+    height: 40%;
+    width: 40%;
+    padding: 10px;
+}
+
+.imgVerVideo{
+    height: 60%;
+    width: 60%;
+    cursor: pointer;
+
+    margin: 20px;
+}
+
+.imgVoltar{
+    height: 25px;
+    width: 25px;
+}
+
+/*  */
+
+/* ---------------------------------------- */
+
+.containerLogin{
+    min-height: 100vh;
+    background-color: var(--azul-1-color);
+}
+
+/* ---------------------------------------- */
+
+.caseLogin{
+    background-color: var(--cinza-1-color);
+    padding: 20px;
+
+    max-width: 1400px;
+    width: 100%;
+    border-radius: 30px;
+    box-shadow:15px 20px 0px rgba(0,0,0,0.1);
+
+    /* border: 1px solid green; */
+}
+
+/* ---------------------------------------- */
+
+.caseForm{
+    /* border: 1px solid blue; */
+}
+.caseForm input{
+    font-family: 'FontAwesome', 'Raleway', Arial, Helvetica, sans-serif;
+}
+.caseForm .form-control{
+    width: 300px;
+    min-height: 100%;
+    background-color: var(--cinza-2-color);
+    color:  var(--cinza-4-color);
+    font-size: 23px;
+
+    border-radius: 20px;
+}
+/* .caseForm .custom-control-label{
+    font-weight: bolder;
+} */
+.caseForm .custom-control-label::before{
+    background-color: var(--cinza-2-color);
+}
+.caseForm .custom-control-input:checked~.custom-control-label::before{
+    border-color: var(--azul-3-color);
+    background-color: var(--azul-3-color);
+}
+
+/* ---------------------------------------- */
+
+.caseBotoes{
+    /* border: 1px solid blue; */
+}
+.caseBotoes .btn-primary{
+    background-color: var(--azul-3-color);
+    border-color: var(--azul-3-color);
+}
+.caseBotoes .btn{
+    width: 300px;
+    border-radius: 20px;
+}
+
+.caseBotoes .linkEsqueceuSenha{
+    color: var(--azul-3-color);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.caseBotoes .linkComoAcessar{
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.tiraPaddingTop{
+    padding-top: 0;
+}
+.tiraPaddingBottom{
+    padding-bottom: 0;
+}
+/* ---------------------------------------- */
+
+/* ---------------------------------------- */
+
+.col-lg-5, .col-lg-7{
+    height: 100%;
+    /* border: 1px solid red; */
+}

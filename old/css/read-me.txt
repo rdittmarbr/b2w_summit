@@ -1,0 +1,45 @@
+---------------------------------------------------------------------------------------------------------------
+Sistema CLibras Aberta
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Definição dos arquivos CSS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+---------------------------------------------------------------------------------------------------------------
+-= Arquivos =-
+
+css.css        - Contém o CSS base
+animation.css  - Contém o CSS para animação
+skin/
+  skin.css     - Definições da customização da interface
+
+---------------------------------------------------------------------------------------------------------------
+Customização da interface, skin
+---------------------------------------------------------------------------------------------------------------
+
+Skins ou Peles, representam a melhor forma de adaptar e customizar a interface utilizada pelos vários usuários
+as suas necessidades específicas.
+
+Tais necessidades podem ser meramente visuais, mas podem ser também adaptadas para buscar formas de suprimir e
+facilitar a visualização por usuário específicas como daltônicos, baixa acuidade visual, dentre outros.
+
+A custmoização da interface se dá através da alteração das propriedades CSS (Estilos) da página.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+-= Configurações =-
+
+$gl_Skin = array( "skin" => "",         <- Nome do skin ( precedido por / : por exemplo UFPR/ )
+                  "fixed" => false );   <- Impede a alteração do skin
+
+$gl_Skin["skin"]  : Sub Diretório pertencente ao diretório css/skin, onde encontra-se as configurações da skin,
+como por exemplo : UFPR css/skin/ufpr/ , UAB -> css/skin/uab , CLibras -> "css/skin".
+Caso este campo seja omitido, será carregado o skin padrão do sistema (css/skin)
+
+$gl_Skin["fixed"] : Torna o skin definida em $gl_Skin["skin"] inalterável. Se $gl_Skin[fixed]=true (verdadeiro)
+impede a definição, o carregamento e a troca de skins no sistema, Tornando o skin definido pelo administrador
+fixo e imutável.
+
+A skin pode ser definida no cadastro do usuário, caso esta definição esteja em branco, será utilizada a skin
+padrão (css/skin).
+
+Há outra opção, definida para teste e customização, o parâmetro "skin=nome" no endereço de acesso pode ser
+invocado para carregar o novo skin.
+http:\\clibras.teste.ufpr.br/clibras/?skin=UFPR

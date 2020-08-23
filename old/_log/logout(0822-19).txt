@@ -1,0 +1,34 @@
+------------------------------------------------------------
+IP : 127.0.0.1(9)
+------------------------------------------------------------
+ES       :/var/www/html/ame/
+ES_LIB   :/var/www/html/ame/_lib/
+ES_HTML  :/var/www/html/ame/html/
+ES_LOG   :/var/www/html/ame/_log/
+ES_MODULE:/var/www/html/ame/_mdl/
+------------------------------------------------------------
+USER AGENT:Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0 (GET)
+Host:localhost
+User-Agent:Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language:pt-BR
+Accept-Encoding:gzip, deflate
+Connection:keep-alive
+Referer:http://localhost/ame/
+Cookie:ca2ce7b12d96787788d960a7da48256e=r66kkc4n0dlpqa5m2mrbn3avue; 347a11d1e4d12e53ac0b397425571aca=75g0jb21sd73tr52ngnn4n5caf
+Upgrade-Insecure-Requests:1
+------------------------------------------------------------
+20200822-19:08:46(1598134126.1102 - 0.00016) - logout.TcDebug::__construct                                 ;System Debug Level = 9
+20200822-19:08:46(1598134126.1103 - 0.00023) - logout.TcDebug::setFile                                     ;/var/www/html/ame/_log/logout(0822-19).txt
+20200822-19:08:46(1598134126.1104 - 0.00027) - logout.TcDB::__construct                                    ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-19:08:46(1598134126.1105 - 0.00039) - logout.TcUser::__construct                                  ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-19:08:46(1598134126.1105 - 0.00045) - logout.TcDebug::setFile                                     ;/var/www/html/ame/_log/0822-19-admin.127.0.0.1.txt
+20200822-19:08:46(1598134126.1106 - 0.00048) - logout.TcUser::logout                                       ;
+20200822-19:08:46(1598134126.1107 - 0.00062) - logout.TcDebug::save                                        ;Linhas : 6
+20200822-19:08:46(1598134126.1112 - 0.00108) - logout.TcDebug::setFile                                     ;/var/www/html/ame/_log/logout(0822-19).txt
+20200822-19:08:46(1598134126.1112 - 0.00111) - logout.TcUser::active                                       ;not logged in
+20200822-19:08:46(1598134126.1113 - 0.00118) - logout.TcUser::__destruct                                   ;
+20200822-19:08:46(1598134126.1113 - 0.00120) - logout.TcDB::__destruct                                     ;
+20200822-19:08:46(1598134126.1113 - 0.00123) - logout.TcDebug::__destruct                                  ;
+20200822-19:08:46(1598134126.1113 - 0.00126) - logout.TcDebug::save                                        ;Linhas : 12
+20200822-19:08:46(1598134126.1118 - 0.00167) - logout.TcDebug::TcDebug::save.EOF - FILE                    ;

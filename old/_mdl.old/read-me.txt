@@ -1,0 +1,39 @@
+---------------------------------------------------------------------------------------------------------------
+Módulos disponíveis - sistema CLibras Aberta
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Este arquivo contém a descrição dos módulos instalados e algumas definições.
+
+Esta pasta pode estar localizada fora da árvore principal, aumentando a segurança
+ES_MODULE - Define o caminho para a carga dos módulos
+
+Cada módulo é composto por 3 letras, as quais representam todos os itens de um determinado módulo.
+Todos os formulários, arquivos internos e de manutenção devem estar nesta pasta.
+
+Quanto aos arquivos CSS, JS, Imagens, etc.. estes devem respeitar os caminhos convencionais.
+-------------------------------------------------------------------------------------------------------------*/
+
+Módulos Instalados
+
+cck - Manipulação de cookies entre servidor e estação
+
+cht - Chat
+
+dsk - Desktop
+  usu -> Desktop do usuários
+  
+hlp - Help
+
+usu - usuário
+  man -> Manutenção de usuários do sistema
+    _post ( tipo , [] )
+      tipo - (S)Consultar / (I)Adicionar / (U)Alterar / (D)Excluir
+  lgn -> Formulário de Login
+    _post ( tipo , [usu,pass] )
+      processa o post do formulário de acordo com o tipo
+      tipo - Login / Logout
+  pss -> Altera a senha do usuário
+    _post ( tipo, [ usu, pass_old, pass_new ] )
+      Altera a senha do usuário se for informada a senha antiga
+  mps -> Altera a senha do usuário - por usuários master
+    _post ( tipo, [ usu, pass_new ] )
+      Altera a senha do usuário sem necessitar da senha antiga

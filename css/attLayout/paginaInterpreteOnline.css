@@ -1,0 +1,236 @@
+.imgOpcInterprete{
+    height: 150px;
+    width: 150px;
+}
+
+#paginaInterpreteOnline{
+    width: 100%;
+    height: 85vh;
+
+    background-image: url('../../img/imgsvg/svgAtt/desktop_interpreteonline.svg');
+    background-repeat: no-repeat;
+    background-size: 600px 600px;
+    background-attachment: fixed;
+    background-origin: border-box;
+    background-color: var(--cinza-1-color);
+}
+
+.caseInterpreteOnline{
+    padding: 20px;
+    padding-top: 120px;
+}
+
+#paginaInterpreteOnline h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+#paginaInterpreteOnline a{
+    color: black;
+}
+#paginaInterpreteOnline a:hover{
+    text-decoration: none;
+}
+
+#paginaInterpreteOnline .divOpcaoLocal{
+    display: flex;
+    max-height: 300px;
+    max-width: 300px;
+
+    min-height: 100px;
+    min-width: 100px;
+
+    margin: 0 20px 20px 0;
+
+    background-color: #fff;
+    box-shadow:0 0 1em rgba(0,0,0,0.3);
+
+    cursor: pointer;
+}
+
+#paginaInterpreteOnline .divSelecaoOpcao{
+    display: none;
+
+    /* height: 90vh; */
+    height: 100%;
+    width: 100%;
+
+    /* height: 200px;
+    width: 200px; */
+
+    /* position: fixed;
+    top: 10%;
+    left: 0; */
+
+    position: relative;
+    top: 0;
+    left: 0;
+
+    /* border: 1px solid red; */
+    /* z-index: 999; */
+
+}
+
+
+/* PARTE DO FAQ */
+/* .imgVoltar{
+    height: 35px;
+    width: 35px;
+}
+
+.voltar{
+    margin-top: 20px;
+    height: 50px;
+    width: auto;
+    cursor: pointer;
+}
+
+.voltar h5{
+    padding-top: 10px;
+    color: var(--azul-4-color);
+}
+
+.voltar h5:hover{
+    padding-top: 10px;
+    color: var(--azul-5-color);
+}
+
+.caseFaqLocal{
+    padding-left: 100px;
+}
+
+.faq{
+    min-width: 100px;
+    height: auto;
+
+    background-color: var(--cinza-2-color);
+    border: 1px solid var(--cinza-4-color);
+    border-radius: 20px;
+}
+
+.faq h5{
+    color: var(--cinza-5-color);
+    font-weight: bold;
+}
+
+.faq h5:hover{
+    color: #000;
+} */
+
+/* ########### */
+
+/*#################### VERSÃO DOIS ####################*/
+.imgBotao{
+    height: 80%;
+    width: 80%;
+}
+
+#paginaInterpreteOnline .col-6{
+    margin: 20px 0 20px 0;
+}
+
+.botaoOpcoes{
+    /* width: 80%;
+    height: 80%; */
+    width: 200px;
+    height: 200px;
+
+    /* border: 1px solid var(--cinza-3-color); */
+    box-shadow:0 0 1em rgba(0,0,0,0.3);
+    background-color: #fff;
+}
+
+.botaoOpcoes:hover{
+    box-shadow:0 0 1em rgba(27,103,188,0.6);
+}
+
+#paginaInterpreteOnline h2{
+    margin-bottom: 3px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: var(--azul-5-color);
+}
+
+#paginaInterpreteOnline h3{
+    font-weight: bold;
+}
+
+.videoFaq{
+    height: 100%;
+    width: 100%;
+}
+
+#paginaInterpreteOnline .close{
+    opacity: 1;
+    color: var(--cinza-4-color);
+}
+
+#paginaInterpreteOnline .introFaq{
+    font-size: 1.2rem;
+}
+
+#paginaInterpreteOnline .btn-link{
+    text-decoration: none;
+    color: var(--azul-4-color);
+}
+
+#paginaInterpreteOnline .btn-link:hover{
+    color: var(--azul-5-color);
+}
+
+#paginaInterpreteOnline .btnSolicitarInterprete{
+    color: #fff;
+    background-color: var(--azul-4-color);
+    border: 1px solid var(--azul-4-color);
+}
+
+#paginaInterpreteOnline .btnSolicitarInterprete:hover{
+    background-color: var(--azul-5-color);
+    border: 1px solid var(--azul-5-color);
+}
+
+#paginaInterpreteOnline .modal-content{
+    background-color: var(--cinza-1-color);
+}
+
+#paginaInterpreteOnline .card-header{
+    background: var(--cinza-2-color);
+}
+
+#paginaInterpreteOnline .iframeBBB{
+    display: none;
+    width: 100%;
+    height: 90%;
+
+    position: fixed;
+    top: 10%;
+    left: 0;
+
+    z-index: 999999998;
+}
+
+/*####################################################*/
+
+@media (max-width: 1000px){
+    #paginaInterpreteOnline{
+        background-image: url('../../img/imgsvg/svgAtt/fundo_mobile.svg');
+        background-size: auto;
+        background-attachment: local;
+    }
+    #paginaInterpreteOnline h1{
+        text-align: left;
+        }
+    #paginaInterpreteOnline h5{
+        text-align: left;
+    }
+
+    .caseInterpreteOnline{
+        padding-top: 20px;
+    }
+    #paginaInterpreteOnline .divSelecaoOpcao{
+        top: 9%;
+    }
+
+    .caseFaqLocal{
+        padding-left: 0;
+    }
+}

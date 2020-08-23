@@ -1,0 +1,68 @@
+/*------------------------------------------------------------------------------------------------------------
+Mantenedor     : Alexandre Carneiro
+Linguaguem     : CSS
+Dependencia    :
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Modulo         : Definição da barra de navegação
+------------------------------------------------------------------------------------------------------------*/
+
+/* nav */
+/* ################################## */
+
+/* OPÇÕES DA NAVBAR */
+.nav-pills .show>.nav-link {
+    color: var(--azul);
+    background: var(--gelo);
+}
+
+.container-fluid{
+    background-color: var(--gelo);
+}
+
+.nav-item a{
+    font-weight: bold;
+    color: var(--azul);
+}
+
+.dropdown-menu{
+    background-color: var(--azul);
+    border-radius: 0 1.2em 1.2em 1.2em;
+}
+
+.dropdown-menu a{
+    color: var(--gelo);
+}
+.dropdown-menu a:hover{
+    background-color: var(--azul-claro);
+    color: var(--gelo);
+    border-radius: 0.6em;
+}
+
+.icone-titulo{
+    height: 60px;
+    width: 200px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.icone-navbar{
+    height: 25px;
+    width: 25px;
+}
+
+img{
+    text-align: center;
+}
+
+/* ################################## */
+
+.navbar{
+    padding: 0;
+}
+
+.container-fluid{
+    padding-left: 0;
+    box-shadow: 0px 2px 10px #aaaaaa;
+}
+.btn-dark {
+    margin-right: 10px;
+}

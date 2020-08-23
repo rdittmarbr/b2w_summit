@@ -1,0 +1,22 @@
+/*------------------------------------------------------------------------------------------------------------
+Mantenedor     : Alexandre Carneiro
+Linguaguem     : CSS
+Dependencia    :
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Modulo         : CSS geral das paginas
+------------------------------------------------------------------------------------------------------------*/
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: var(--gelo);
+}
+
+.wrapper {
+    padding-bottom: 50px;
+}
+
+.row{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+}

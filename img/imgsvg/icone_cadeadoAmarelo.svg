@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 23.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Camada_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 167.01448 196.89999"
+   xml:space="preserve"
+   sodipodi:docname="icone_cadeado.svg"
+   width="167.01448"
+   height="196.89999"
+   inkscape:version="0.92.4 (unknown)"><metadata
+   id="metadata4767"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs4765" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="767"
+   inkscape:window-height="480"
+   id="namedview4763"
+   showgrid="false"
+   inkscape:zoom="0.56324582"
+   inkscape:cx="73.6"
+   inkscape:cy="98.4"
+   inkscape:window-x="255"
+   inkscape:window-y="434"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="Camada_1" />
+<style
+   type="text/css"
+   id="style4756">
+	.st0{fill:#FFBD17;}
+	.st1{fill:#758596;}
+</style>
+<path
+   class="st0"
+   d="m 163,82.9 v 0 0 h -0.1 v 0 0 H 150.6 V 67.7 c 0,-29.4 -26,-53.2 -58.1,-53.2 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 -32,0 -58.1,23.9 -58.1,53.2 V 82.9 H 22.1 v 0 0 0 0 0 c -2.3,0 -4.2,1.7 -4.2,3.8 v 95 c 0,8.4 7.4,15.2 16.6,15.2 v 0 0 0 0 0 h 115.9 v 0 0 0 0 0 c 9.2,0 16.6,-6.8 16.6,-15.2 v -95 c 0.2,-2.1 -1.7,-3.8 -4,-3.8 z m -78.8,83.6 c -1.2,0 -2.3,-0.5 -3.1,-1.3 -0.8,-0.8 -1.1,-1.9 -1,-2.9 l 2.3,-18.9 c 0.2,-1.7 -0.6,-3.2 -1.9,-4.4 -2.9,-2.8 -4.6,-6.5 -4.6,-10.5 0,-8.4 7.4,-15.1 16.5,-15.2 9.1,0 16.5,6.9 16.5,15.2 0,4 -1.7,7.7 -4.6,10.5 -1.3,1.2 -2.1,2.7 -1.9,4.4 l 2.3,18.9 c 0.1,1.1 -0.2,2.1 -1,2.9 -0.8,0.8 -1.9,1.3 -3.1,1.3 z M 59.3,82.9 V 67.7 c 0,-16.7 14.8,-30.4 33.1,-30.4 18.2,0 33.1,13.7 33.1,30.4 v 15.2 z"
+   id="path4758"
+   inkscape:connector-curvature="0"
+   style="fill:#ffbd17" />
+<path
+   class="st1"
+   d="M 137.9,192.4 H 21.8 C 9.7,192.4 0,183.4 0,172.2 v -95 c 0,-4.8 4.1,-8.8 9.1,-8.8 h 7.5 V 58.2 C 16.6,26.1 44.9,0 79.6,0 H 80 c 34.7,0.1 62.8,26.2 62.8,58.2 v 10.2 h 7.5 c 5,0 9.1,3.9 9.1,8.8 v 95 c 0,11.1 -9.6,20.2 -21.5,20.2 z M 9.9,78.3 v 93.9 c 0,5.6 5.2,10.2 11.6,10.2 h 116.1 c 6.6,0 11.8,-4.6 11.8,-10.2 V 78.3 H 132.8 V 58.1 C 132.8,31.6 109.1,10 80,9.9 v 0 H 79.3 C 50.1,10 26.4,31.6 26.4,58.1 v 20.2 z m 78,83.7 H 71.5 c -2.5,0 -4.9,-1 -6.6,-2.7 -1.8,-1.8 -2.7,-4.4 -2.5,-7 l 2.3,-18.8 c -0.1,-0.1 -0.2,-0.3 -0.4,-0.5 -3.9,-3.8 -6.1,-8.7 -6.1,-14 0,-11 9.6,-20.1 21.4,-20.1 11.9,0.1 21.5,9.1 21.5,20.1 0,5.3 -2.2,10.3 -6.1,14.1 -0.2,0.2 -0.3,0.3 -0.3,0.4 l 2.2,18.7 c 0.3,2.7 -0.6,5.2 -2.4,7 -1.7,1.8 -4,2.8 -6.6,2.8 z M 72.5,152 H 87 l -2.1,-17.5 c -0.4,-3 0.8,-6.1 3.3,-8.6 2,-1.9 3.1,-4.3 3.1,-6.9 0,-5.6 -5.2,-10.2 -11.6,-10.2 -6.3,0 -11.5,4.6 -11.5,10.2 0,2.5 1.1,5 3.1,6.9 2.5,2.4 3.7,5.5 3.4,8.6 z m 22.2,-18.8 v 0 c 0,0 0,0 0,0 z M 117.8,78.3 H 41.7 V 58.1 c 0,-19.5 17.1,-35.3 38,-35.4 21,0.1 38,15.9 38,35.4 V 78.3 Z M 51.6,68.4 h 56.2 V 58.2 c 0,-14 -12.6,-25.4 -28.1,-25.5 -15.5,0 -28.1,11.5 -28.1,25.5 z"
+   id="path4760"
+   inkscape:connector-curvature="0"
+   style="fill:#758596" />
+</svg>

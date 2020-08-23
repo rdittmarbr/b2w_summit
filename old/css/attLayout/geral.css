@@ -1,0 +1,55 @@
+
+/* definições gerais para todas as paginas do sistema */
+
+:root{
+    /* as cores são numeradas. quanto maior o numero, mais forte é a cor daquela determina seleção */
+
+    /* CINZAS */
+    --cinza-1-color: #f8f8f8;
+    --cinza-2-color: #e4e4e4;
+    --cinza-3-color: #acacac;
+    --cinza-4-color: #898989;
+    --cinza-5-color: #383838;
+
+    /* AZUIS */
+    --azul-1-color: #a2c7fa;
+    --azul-2-color: #6ca5ea;
+    --azul-3-color: #5394f2; /* formas circulares */
+    --azul-4-color: #3278cc;
+    --azul-5-color: #1b67bc; /* icone mobile */
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline:  0;
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    min-height: 100%;
+}
+
+body {
+    background: var(--cinza-1-color);
+    -webkit-font-smoothing: antialiased !important;
+}
+
+body, input, button{
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-size: 16px; /* isso aqui precisa avaliar e modificar */
+}
+
+
+.centralizaInner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+}
+.row{
+    margin: 0;
+}

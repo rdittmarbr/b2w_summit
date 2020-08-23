@@ -1,0 +1,593 @@
+------------------------------------------------------------
+IP : 127.0.0.1(9)
+------------------------------------------------------------
+ES       :/var/www/html/ame/
+ES_LIB   :/var/www/html/ame/_lib/
+ES_HTML  :/var/www/html/ame/html/
+ES_LOG   :/var/www/html/ame/_log/
+ES_MODULE:/var/www/html/ame/_mdl/
+------------------------------------------------------------
+USER AGENT:Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0 (POST)
+Host:localhost
+User-Agent:Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0
+Accept:*/*
+Accept-Language:pt-BR
+Accept-Encoding:gzip, deflate
+Content-Type:application/x-www-form-urlencoded
+Content-Length:53
+Origin:http://localhost
+Connection:keep-alive
+Referer:http://localhost/ame/
+Cookie:ca2ce7b12d96787788d960a7da48256e=r66kkc4n0dlpqa5m2mrbn3avue; 347a11d1e4d12e53ac0b397425571aca=75g0jb21sd73tr52ngnn4n5caf
+------------------------------------------------------------
+20200822-18:36:31(1598132191.7426 - 0.00010) - ajax-json.TcDebug::__construct                              ;System Debug Level = 9
+20200822-18:36:31(1598132191.7426 - 0.00016) - ajax-json.TcDebug::setFile                                  ;/var/www/html/ame/_log/ajax-json(0822-18).txt
+20200822-18:36:31(1598132191.7427 - 0.00020) - ajax-json.TcDB::__construct                                 ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-18:36:31(1598132191.7428 - 0.00027) - ajax-json.TcUser::__construct                               ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-18:36:31(1598132191.7428 - 0.00030) - ajax-json.TcPackage::__construct                            ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-18:36:31(1598132191.7428 - 0.00033) - ajax-json.$_POST                                            ;{"M":"usulgi","A":"P","V":{"usupas":"admin","usuusu":"admin","usutpy":"I"},"C":"3"}
+20200822-18:36:31(1598132191.7428 - 0.00035) - ajax-json.$_COOKIE                                          ;{"ca2ce7b12d96787788d960a7da48256e":"r66kkc4n0dlpqa5m2mrbn3avue","347a11d1e4d12e53ac0b397425571aca":"75g0jb21sd73tr52ngnn4n5caf"}
+20200822-18:36:31(1598132191.7429 - 0.00037) - ajax-json.TcUser::active                                    ;not logged in
+20200822-18:36:31(1598132191.7429 - 0.00040) - ajax-json.TcPackage::getModule                              ;["usulgi","M",false,0]
+20200822-18:36:31(1598132191.7430 - 0.00049) - ajax-json.TcPackage::getForm                                ;["usulgi"]
+20200822-18:36:31(1598132191.7430 - 0.00053) - ajax-json.TcPackage::getForm                                ;Incluindo... /var/www/html/ame/_mdl/usu/usulgi.html
+20200822-18:36:31(1598132191.7432 - 0.00069) - ajax-json.TcPackage::processModule                          ;usulgi
+20200822-18:36:31(1598132191.7432 - 0.00073) - ajax-json.TcPackage::processModule                          ;usulgi
+20200822-18:36:31(1598132191.7432 - 0.00076) - ajax-json.                                                  ;POST Detectado usulgi
+20200822-18:36:31(1598132191.7433 - 0.00079) - ajax-json.usulgi_post                                       ;{"usupas":"admin","usuusu":"admin","usutpy":"I"}
+20200822-18:36:31(1598132191.7433 - 0.00082) - ajax-json.usulgi_post                                       ;login
+20200822-18:36:31(1598132191.7433 - 0.00085) - ajax-json.TcUser::login                                     ;
+20200822-18:36:31(1598132191.7434 - 0.00089) - ajax-json.TcDB::get_Host_Type                               ;ES_DBMYSQL41
+20200822-18:36:31(1598132191.7434 - 0.00092) - ajax-json.TcUser.TcQuery_light::__construct                 ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-18:36:31(1598132191.7434 - 0.00095) - ajax-json.TcUser::query                                     ;select idUser, name, code, password, SocialName, avatar  from cl_user   where ( email = 'admin' or register = 'admin' or code = 'admin' ); 
+20200822-18:36:31(1598132191.7435 - 0.00098) - ajax-json.TcUser.TcQuery_light::query                       ;select idUser, name, code, password, SocialName, avatar  from cl_user   where ( email = 'admin' or register = 'admin' or code = 'admin' ); 
+20200822-18:36:31(1598132191.7435 - 0.00101) - ajax-json.TcUser.TcQuery_light::connect                     ;
+20200822-18:36:31(1598132191.7435 - 0.00104) - ajax-json.TcDB::connect                                     ;ame@localhost:ame
+20200822-18:36:31(1598132191.7438 - 0.00134) - ajax-json.TcDB::connected                                   ;
+20200822-18:36:31(1598132191.7899 - 0.04742) - ajax-json.TcUser.TcQuery_light::error                       ;
+20200822-18:36:31(1598132191.7899 - 0.04745) - ajax-json.TcDB::connected                                   ;1
+20200822-18:36:31(1598132191.7900 - 0.04750) - ajax-json.TcUser.TcQuery_light::fetchRow                    ;{"iduser":"1","name":"ADMINISTRADOR","code":"admin","password":"67568ab36a448b32d3f407449fdd5d56","socialname":null,"avatar":null}
+20200822-18:36:31(1598132191.7900 - 0.04752) - ajax-json.TcUser::login                                     ;{"iduser":"1","name":"ADMINISTRADOR","code":"admin","password":"67568ab36a448b32d3f407449fdd5d56","socialname":null,"avatar":null}
+20200822-18:36:31(1598132191.7903 - 0.04784) - ajax-json.TcUser::login                                     ;login sucessfull
+20200822-18:36:31(1598132191.7904 - 0.04788) - ajax-json.usulgi_post                                       ;{"id":"1","user":"admin","ip":"127.0.0.1","login":1598132191,"lupdate":1598132191,"modules":{"usudta":true}}
+20200822-18:36:31(1598132191.7904 - 0.04791) - ajax-json.                                                  ;usuário ATIVO - processando módulos carregados!
+20200822-18:36:31(1598132191.7904 - 0.04793) - ajax-json.TcPackage::getModule                              ;["dskusu","M",false,0]
+20200822-18:36:31(1598132191.9966 - 0.25412) - ajax-json.TcUser::active                                    ;{"id":"1","user":"admin","ip":"127.0.0.1","login":1598132191,"lupdate":1598132191,"modules":{"usudta":true}}
+20200822-18:36:31(1598132191.9966 - 0.25415) - ajax-json.TcUser::active                                    ;{"multiple":true,"timeout":6000,"project":"ame","log":{"access":true,"password":true},"validate":["email","register","code"]}
+20200822-18:36:31(1598132191.9967 - 0.25421) - ajax-json.TcPackage::getForm                                ;["dskusu"]
+20200822-18:36:31(1598132191.9968 - 0.25431) - ajax-json.TcPackage::getForm                                ;Incluindo... /var/www/html/ame/_mdl/dsk/navbar.html
+20200822-18:36:32(1598132192.0277 - 0.28524) - ajax-json.TcPackage::getForm                                ;Incluindo... /var/www/html/ame/_mdl/dsk/foobar.html
+20200822-18:36:32(1598132192.0279 - 0.28545) - ajax-json.TcPackage::getForm                                ;Incluindo... /var/www/html/ame/_mdl/dsk/tutorial.html
+20200822-18:36:32(1598132192.0350 - 0.29254) - ajax-json.TcPackage::processModule                          ;dskusu
+20200822-18:36:32(1598132192.0351 - 0.29259) - ajax-json.TcPackage::processModule                          ;dskusu
+20200822-18:36:32(1598132192.0351 - 0.29262) - ajax-json.TcPackage::writePackage                           ;
+20200822-18:36:32(1598132192.0352 - 0.29276) - ajax-json.TcDebug::setFile                                  ;/var/www/html/ame/_log/0822-18-admin.127.0.0.1.txt
+20200822-18:36:32(1598132192.0353 - 0.29279) - ajax-json.TcPackage::__destruct                             ;
+20200822-18:36:32(1598132192.0353 - 0.29283) - ajax-json.TcUser.TcQuery_light::freeResult                  ;
+20200822-18:36:32(1598132192.0354 - 0.29287) - ajax-json.TcUser.TcQuery_light::error                       ;
+20200822-18:36:32(1598132192.0354 - 0.29290) - ajax-json.TcDB::connected                                   ;1
+20200822-18:36:32(1598132192.0354 - 0.29293) - ajax-json.TcUser.TcQuery_light::__destruct                  ;
+20200822-18:36:32(1598132192.0354 - 0.29296) - ajax-json.TcUser::__destruct                                ;
+20200822-18:36:32(1598132192.0355 - 0.29299) - ajax-json.TcDB::close                                       ;
+20200822-18:36:32(1598132192.0355 - 0.29306) - ajax-json.TcDB::connected                                   ;1
+20200822-18:36:32(1598132192.0356 - 0.29311) - ajax-json.TcDB::__destruct                                  ;
+20200822-18:36:32(1598132192.0356 - 0.29315) - ajax-json.TcDebug::__destruct                               ;
+20200822-18:36:32(1598132192.0357 - 0.29318) - ajax-json.TcDebug::save                                     ;Linhas : 52
+20200822-18:36:32(1598132192.0371 - 0.29458) - ajax-json.TcDebug::TcDebug::save.EOF - FILE                 ;
+------------------------------------------------------------
+IP : 127.0.0.1(9)
+------------------------------------------------------------
+ES       :/var/www/html/ame/
+ES_LIB   :/var/www/html/ame/_lib/
+ES_HTML  :/var/www/html/ame/html/
+ES_LOG   :/var/www/html/ame/_log/
+ES_MODULE:/var/www/html/ame/_mdl/
+------------------------------------------------------------
+USER AGENT:Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0 (GET)
+Host:localhost
+User-Agent:Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language:pt-BR
+Accept-Encoding:gzip, deflate
+Connection:keep-alive
+Cookie:ca2ce7b12d96787788d960a7da48256e=r66kkc4n0dlpqa5m2mrbn3avue; 347a11d1e4d12e53ac0b397425571aca=75g0jb21sd73tr52ngnn4n5caf
+Upgrade-Insecure-Requests:1
+------------------------------------------------------------
+20200822-18:46:15(1598132775.9533 - 0.00017) - index.TcDebug::__construct                                  ;System Debug Level = 9
+20200822-18:46:15(1598132775.9533 - 0.00024) - index.TcDebug::setFile                                      ;/var/www/html/ame/_log/index(0822-18).txt
+20200822-18:46:15(1598132775.9534 - 0.00028) - index.TcDB::__construct                                     ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-18:46:16(1598132776.0512 - 0.09815) - index.TcUser::__construct                                   ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-18:46:16(1598132776.0513 - 0.09819) - index.TcUser::active                                        ;{"id":"1","user":"admin","ip":"127.0.0.1","login":1598132191,"lupdate":1598132191,"modules":{"usudta":true}}
+20200822-18:46:16(1598132776.0513 - 0.09822) - index.TcUser::active                                        ;{"multiple":true,"timeout":6000,"project":"ame","log":{"access":true,"pass":true,"module":true},"validate":["email","register","code"],"instance":{"multiple":true,"timeout":86400},"pass":{"min":3,"max":25,"complex":"","resset":["email","register"],"tokenTime":86400},"login":["email","register","code","rf"]}
+20200822-18:46:16(1598132776.0514 - 0.09832) - index.TcDebug::setFile                                      ;/var/www/html/ame/_log/0822-18-admin.127.0.0.1.txt
+20200822-18:46:16(1598132776.0514 - 0.09835) - index.TcUser::__destruct                                    ;
+20200822-18:46:16(1598132776.0515 - 0.09838) - index.TcDB::__destruct                                      ;
+20200822-18:46:16(1598132776.0515 - 0.09841) - index.TcDebug::__destruct                                   ;
+20200822-18:46:16(1598132776.0515 - 0.09844) - index.TcDebug::save                                         ;Linhas : 10
+20200822-18:46:16(1598132776.0688 - 0.11574) - index.TcDebug::TcDebug::save.EOF - FILE                     ;
+------------------------------------------------------------
+IP : 127.0.0.1(9)
+------------------------------------------------------------
+ES       :/var/www/html/ame/
+ES_LIB   :/var/www/html/ame/_lib/
+ES_HTML  :/var/www/html/ame/html/
+ES_LOG   :/var/www/html/ame/_log/
+ES_MODULE:/var/www/html/ame/_mdl/
+------------------------------------------------------------
+USER AGENT:Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0 (POST)
+Host:localhost
+User-Agent:Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0
+Accept:*/*
+Accept-Language:pt-BR
+Accept-Encoding:gzip, deflate
+Content-Type:application/x-www-form-urlencoded
+Content-Length:12
+Origin:http://localhost
+Connection:keep-alive
+Referer:http://localhost/ame/
+Cookie:ca2ce7b12d96787788d960a7da48256e=r66kkc4n0dlpqa5m2mrbn3avue; 347a11d1e4d12e53ac0b397425571aca=75g0jb21sd73tr52ngnn4n5caf
+------------------------------------------------------------
+20200822-18:46:17(1598132777.3211 - 0.00017) - ajax-json.TcDebug::__construct                              ;System Debug Level = 9
+20200822-18:46:17(1598132777.3212 - 0.00023) - ajax-json.TcDebug::setFile                                  ;/var/www/html/ame/_log/ajax-json(0822-18).txt
+20200822-18:46:17(1598132777.3212 - 0.00027) - ajax-json.TcDB::__construct                                 ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-18:46:17(1598132777.3214 - 0.00039) - ajax-json.TcUser::__construct                               ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-18:46:17(1598132777.3214 - 0.00044) - ajax-json.TcPackage::__construct                            ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-18:46:17(1598132777.3214 - 0.00047) - ajax-json.TcUser::active                                    ;{"id":"1","user":"admin","ip":"127.0.0.1","login":1598132191,"lupdate":1598132776,"modules":{"usudta":true}}
+20200822-18:46:17(1598132777.3215 - 0.00050) - ajax-json.TcUser::active                                    ;{"multiple":true,"timeout":6000,"project":"ame","log":{"access":true,"password":true},"validate":["email","register","code"]}
+20200822-18:46:17(1598132777.3215 - 0.00053) - ajax-json.                                                  ;usuário ATIVO - processando módulos carregados!
+20200822-18:46:17(1598132777.3215 - 0.00055) - ajax-json.TcPackage::getModule                              ;["dskusu","M",false,0]
+20200822-18:46:17(1598132777.3312 - 0.01024) - ajax-json.TcUser::active                                    ;{"id":"1","user":"admin","ip":"127.0.0.1","login":1598132191,"lupdate":1598132777,"modules":{"usudta":true}}
+20200822-18:46:17(1598132777.3312 - 0.01027) - ajax-json.TcUser::active                                    ;{"multiple":true,"timeout":6000,"project":"ame","log":{"access":true,"password":true},"validate":["email","register","code"]}
+20200822-18:46:17(1598132777.3313 - 0.01031) - ajax-json.TcPackage::getForm                                ;["dskusu"]
+20200822-18:46:17(1598132777.3313 - 0.01037) - ajax-json.TcPackage::getForm                                ;Incluindo... /var/www/html/ame/_mdl/dsk/navbar.html
+20200822-18:46:17(1598132777.3315 - 0.01054) - ajax-json.TcPackage::getForm                                ;Incluindo... /var/www/html/ame/_mdl/dsk/foobar.html
+20200822-18:46:17(1598132777.3316 - 0.01060) - ajax-json.TcPackage::getForm                                ;Incluindo... /var/www/html/ame/_mdl/dsk/tutorial.html
+20200822-18:46:17(1598132777.3316 - 0.01068) - ajax-json.TcPackage::processModule                          ;dskusu
+20200822-18:46:17(1598132777.3317 - 0.01072) - ajax-json.TcPackage::processModule                          ;dskusu
+20200822-18:46:17(1598132777.3317 - 0.01075) - ajax-json.TcPackage::writePackage                           ;
+20200822-18:46:17(1598132777.3318 - 0.01086) - ajax-json.TcDebug::setFile                                  ;/var/www/html/ame/_log/0822-18-admin.127.0.0.1.txt
+20200822-18:46:17(1598132777.3319 - 0.01090) - ajax-json.TcPackage::__destruct                             ;
+20200822-18:46:17(1598132777.3319 - 0.01093) - ajax-json.TcUser::__destruct                                ;
+20200822-18:46:17(1598132777.3319 - 0.01096) - ajax-json.TcDB::__destruct                                  ;
+20200822-18:46:17(1598132777.3320 - 0.01099) - ajax-json.TcDebug::__destruct                               ;
+20200822-18:46:17(1598132777.3320 - 0.01101) - ajax-json.TcDebug::save                                     ;Linhas : 23
+20200822-18:46:17(1598132777.3327 - 0.01175) - ajax-json.TcDebug::TcDebug::save.EOF - FILE                 ;
+------------------------------------------------------------
+IP : 127.0.0.1(9)
+------------------------------------------------------------
+ES       :/var/www/html/ame/
+ES_LIB   :/var/www/html/ame/_lib/
+ES_HTML  :/var/www/html/ame/html/
+ES_LOG   :/var/www/html/ame/_log/
+ES_MODULE:/var/www/html/ame/_mdl/
+------------------------------------------------------------
+USER AGENT:Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0 (POST)
+Host:localhost
+User-Agent:Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0
+Accept:*/*
+Accept-Language:pt-BR
+Accept-Encoding:gzip, deflate
+Content-Type:application/x-www-form-urlencoded
+Content-Length:12
+Origin:http://localhost
+Connection:keep-alive
+Referer:http://localhost/ame/
+Cookie:ca2ce7b12d96787788d960a7da48256e=r66kkc4n0dlpqa5m2mrbn3avue; 347a11d1e4d12e53ac0b397425571aca=75g0jb21sd73tr52ngnn4n5caf
+------------------------------------------------------------
+20200822-18:46:17(1598132777.7417 - 0.00011) - ajax-json.TcDebug::__construct                              ;System Debug Level = 9
+20200822-18:46:17(1598132777.7417 - 0.00016) - ajax-json.TcDebug::setFile                                  ;/var/www/html/ame/_log/ajax-json(0822-18).txt
+20200822-18:46:17(1598132777.7418 - 0.00019) - ajax-json.TcDB::__construct                                 ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-18:46:17(1598132777.7419 - 0.00028) - ajax-json.TcUser::__construct                               ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-18:46:17(1598132777.7419 - 0.00031) - ajax-json.TcPackage::__construct                            ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-18:46:17(1598132777.7419 - 0.00034) - ajax-json.TcUser::active                                    ;{"id":"1","user":"admin","ip":"127.0.0.1","login":1598132191,"lupdate":1598132777,"modules":{"usudta":true}}
+20200822-18:46:17(1598132777.7419 - 0.00037) - ajax-json.TcUser::active                                    ;{"multiple":true,"timeout":6000,"project":"ame","log":{"access":true,"password":true},"validate":["email","register","code"]}
+20200822-18:46:17(1598132777.7420 - 0.00040) - ajax-json.                                                  ;usuário ATIVO - processando modulo :dskbdy
+20200822-18:46:17(1598132777.7420 - 0.00043) - ajax-json.TcPackage::getModule                              ;["dskbdy","M",false,0]
+20200822-18:46:17(1598132777.7816 - 0.04004) - ajax-json.TcUser::active                                    ;{"id":"1","user":"admin","ip":"127.0.0.1","login":1598132191,"lupdate":1598132777,"modules":{"usudta":true}}
+20200822-18:46:17(1598132777.7816 - 0.04007) - ajax-json.TcUser::active                                    ;{"multiple":true,"timeout":6000,"project":"ame","log":{"access":true,"password":true},"validate":["email","register","code"]}
+20200822-18:46:17(1598132777.7817 - 0.04011) - ajax-json.TcPackage::getForm                                ;["dskbdy"]
+20200822-18:46:17(1598132777.7817 - 0.04016) - ajax-json.TcPackage::getForm                                ;Incluindo... /var/www/html/ame/_mdl/dsk/dskbdy.html
+20200822-18:46:17(1598132777.7966 - 0.05506) - ajax-json.TcPackage::processModule                          ;dskbdy
+20200822-18:46:17(1598132777.7967 - 0.05508) - ajax-json.TcPackage::processModule                          ;dskbdy
+20200822-18:46:17(1598132777.7967 - 0.05510) - ajax-json.TcPackage::writePackage                           ;
+20200822-18:46:17(1598132777.7967 - 0.05516) - ajax-json.TcDebug::setFile                                  ;/var/www/html/ame/_log/0822-18-admin.127.0.0.1.txt
+20200822-18:46:17(1598132777.7968 - 0.05519) - ajax-json.TcPackage::__destruct                             ;
+20200822-18:46:17(1598132777.7968 - 0.05522) - ajax-json.TcUser::__destruct                                ;
+20200822-18:46:17(1598132777.7968 - 0.05524) - ajax-json.TcDB::__destruct                                  ;
+20200822-18:46:17(1598132777.7968 - 0.05527) - ajax-json.TcDebug::__destruct                               ;
+20200822-18:46:17(1598132777.7969 - 0.05529) - ajax-json.TcDebug::save                                     ;Linhas : 21
+20200822-18:46:17(1598132777.7978 - 0.05619) - ajax-json.TcDebug::TcDebug::save.EOF - FILE                 ;
+------------------------------------------------------------
+IP : 127.0.0.1(9)
+------------------------------------------------------------
+ES       :/var/www/html/ame/
+ES_LIB   :/var/www/html/ame/_lib/
+ES_HTML  :/var/www/html/ame/html/
+ES_LOG   :/var/www/html/ame/_log/
+ES_MODULE:/var/www/html/ame/_mdl/
+------------------------------------------------------------
+USER AGENT:Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0 (POST)
+Host:localhost
+User-Agent:Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0
+Accept:*/*
+Accept-Language:pt-BR
+Accept-Encoding:gzip, deflate
+Content-Type:application/x-www-form-urlencoded
+Content-Length:12
+Origin:http://localhost
+Connection:keep-alive
+Referer:http://localhost/ame/
+Cookie:ca2ce7b12d96787788d960a7da48256e=r66kkc4n0dlpqa5m2mrbn3avue; 347a11d1e4d12e53ac0b397425571aca=75g0jb21sd73tr52ngnn4n5caf
+------------------------------------------------------------
+20200822-18:46:17(1598132777.7433 - 0.00013) - ajax-json.TcDebug::__construct                              ;System Debug Level = 9
+20200822-18:46:17(1598132777.7433 - 0.00017) - ajax-json.TcDebug::setFile                                  ;/var/www/html/ame/_log/ajax-json(0822-18).txt
+20200822-18:46:17(1598132777.7434 - 0.00019) - ajax-json.TcDB::__construct                                 ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-18:46:17(1598132777.7980 - 0.05480) - ajax-json.TcUser::__construct                               ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-18:46:17(1598132777.7980 - 0.05485) - ajax-json.TcPackage::__construct                            ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-18:46:17(1598132777.7981 - 0.05488) - ajax-json.TcUser::active                                    ;{"id":"1","user":"admin","ip":"127.0.0.1","login":1598132191,"lupdate":1598132777,"modules":{"usudta":true}}
+20200822-18:46:17(1598132777.7981 - 0.05491) - ajax-json.TcUser::active                                    ;{"multiple":true,"timeout":6000,"project":"ame","log":{"access":true,"password":true},"validate":["email","register","code"]}
+20200822-18:46:17(1598132777.7981 - 0.05496) - ajax-json.                                                  ;usuário ATIVO - processando modulo :sysnav
+20200822-18:46:17(1598132777.7982 - 0.05499) - ajax-json.TcPackage::getModule                              ;["sysnav","M",false,0]
+20200822-18:46:17(1598132777.8426 - 0.09939) - ajax-json.TcUser::active                                    ;{"id":"1","user":"admin","ip":"127.0.0.1","login":1598132191,"lupdate":1598132777,"modules":{"usudta":true}}
+20200822-18:46:17(1598132777.8426 - 0.09942) - ajax-json.TcUser::active                                    ;{"multiple":true,"timeout":6000,"project":"ame","log":{"access":true,"password":true},"validate":["email","register","code"]}
+20200822-18:46:17(1598132777.8426 - 0.09946) - ajax-json.TcPackage::getForm                                ;["sysnav"]
+20200822-18:46:17(1598132777.8427 - 0.09954) - ajax-json.TcPackage::getForm                                ;Incluindo... /var/www/html/ame/_mdl/sys/sysnav.html
+20200822-18:46:17(1598132777.8618 - 0.11861) - ajax-json.TcPackage::processModule                          ;sysnav
+20200822-18:46:17(1598132777.8618 - 0.11865) - ajax-json.TcPackage::processModule                          ;sysnav
+20200822-18:46:17(1598132777.8619 - 0.11868) - ajax-json.TcPackage::writePackage                           ;
+20200822-18:46:17(1598132777.8620 - 0.11879) - ajax-json.TcDebug::setFile                                  ;/var/www/html/ame/_log/0822-18-admin.127.0.0.1.txt
+20200822-18:46:17(1598132777.8620 - 0.11881) - ajax-json.TcPackage::__destruct                             ;
+20200822-18:46:17(1598132777.8620 - 0.11883) - ajax-json.TcUser::__destruct                                ;
+20200822-18:46:17(1598132777.8620 - 0.11885) - ajax-json.TcDB::__destruct                                  ;
+20200822-18:46:17(1598132777.8620 - 0.11886) - ajax-json.TcDebug::__destruct                               ;
+20200822-18:46:17(1598132777.8621 - 0.11888) - ajax-json.TcDebug::save                                     ;Linhas : 21
+20200822-18:46:17(1598132777.8628 - 0.11959) - ajax-json.TcDebug::TcDebug::save.EOF - FILE                 ;
+------------------------------------------------------------
+IP : 127.0.0.1(9)
+------------------------------------------------------------
+ES       :/var/www/html/ame/
+ES_LIB   :/var/www/html/ame/_lib/
+ES_HTML  :/var/www/html/ame/html/
+ES_LOG   :/var/www/html/ame/_log/
+ES_MODULE:/var/www/html/ame/_mdl/
+------------------------------------------------------------
+USER AGENT:Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0 (POST)
+Host:localhost
+User-Agent:Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0
+Accept:*/*
+Accept-Language:pt-BR
+Accept-Encoding:gzip, deflate
+Content-Type:application/x-www-form-urlencoded
+Content-Length:12
+Origin:http://localhost
+Connection:keep-alive
+Referer:http://localhost/ame/
+Cookie:ca2ce7b12d96787788d960a7da48256e=r66kkc4n0dlpqa5m2mrbn3avue; 347a11d1e4d12e53ac0b397425571aca=75g0jb21sd73tr52ngnn4n5caf
+------------------------------------------------------------
+20200822-18:46:17(1598132777.7437 - 0.00011) - ajax-json.TcDebug::__construct                              ;System Debug Level = 9
+20200822-18:46:17(1598132777.7437 - 0.00018) - ajax-json.TcDebug::setFile                                  ;/var/www/html/ame/_log/ajax-json(0822-18).txt
+20200822-18:46:17(1598132777.7438 - 0.00021) - ajax-json.TcDB::__construct                                 ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-18:46:17(1598132777.8776 - 0.13400) - ajax-json.TcUser::__construct                               ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-18:46:17(1598132777.8776 - 0.13404) - ajax-json.TcPackage::__construct                            ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-18:46:17(1598132777.8776 - 0.13407) - ajax-json.TcUser::active                                    ;{"id":"1","user":"admin","ip":"127.0.0.1","login":1598132191,"lupdate":1598132777,"modules":{"usudta":true}}
+20200822-18:46:17(1598132777.8777 - 0.13409) - ajax-json.TcUser::active                                    ;{"multiple":true,"timeout":6000,"project":"ame","log":{"access":true,"password":true},"validate":["email","register","code"]}
+20200822-18:46:17(1598132777.8777 - 0.13412) - ajax-json.                                                  ;usuário ATIVO - processando modulo :sysmnu
+20200822-18:46:17(1598132777.8777 - 0.13415) - ajax-json.TcPackage::getModule                              ;["sysmnu","M",false,0]
+20200822-18:46:17(1598132777.9112 - 0.16763) - ajax-json.TcUser::active                                    ;{"id":"1","user":"admin","ip":"127.0.0.1","login":1598132191,"lupdate":1598132777,"modules":{"usudta":true}}
+20200822-18:46:17(1598132777.9112 - 0.16767) - ajax-json.TcUser::active                                    ;{"multiple":true,"timeout":6000,"project":"ame","log":{"access":true,"password":true},"validate":["email","register","code"]}
+20200822-18:46:17(1598132777.9113 - 0.16771) - ajax-json.TcPackage::getForm                                ;["sysmnu"]
+20200822-18:46:17(1598132777.9114 - 0.16778) - ajax-json.TcPackage::getForm                                ;Incluindo... /var/www/html/ame/_mdl/sys/sysmnu.html
+20200822-18:46:17(1598132777.9560 - 0.21241) - ajax-json.TcPackage::processModule                          ;sysmnu
+20200822-18:46:17(1598132777.9560 - 0.21246) - ajax-json.TcPackage::processModule                          ;sysmnu
+20200822-18:46:17(1598132777.9561 - 0.21250) - ajax-json.TcPackage::writePackage                           ;
+20200822-18:46:17(1598132777.9569 - 0.21328) - ajax-json.TcDebug::setFile                                  ;/var/www/html/ame/_log/0822-18-admin.127.0.0.1.txt
+20200822-18:46:17(1598132777.9569 - 0.21332) - ajax-json.TcPackage::__destruct                             ;
+20200822-18:46:17(1598132777.9569 - 0.21336) - ajax-json.TcUser::__destruct                                ;
+20200822-18:46:17(1598132777.9572 - 0.21360) - ajax-json.TcDB::__destruct                                  ;
+20200822-18:46:17(1598132777.9572 - 0.21363) - ajax-json.TcDebug::__destruct                               ;
+20200822-18:46:17(1598132777.9572 - 0.21366) - ajax-json.TcDebug::save                                     ;Linhas : 21
+20200822-18:46:17(1598132777.9605 - 0.21691) - ajax-json.TcDebug::TcDebug::save.EOF - FILE                 ;
+------------------------------------------------------------
+IP : 127.0.0.1(9)
+------------------------------------------------------------
+ES       :/var/www/html/ame/
+ES_LIB   :/var/www/html/ame/_lib/
+ES_HTML  :/var/www/html/ame/html/
+ES_LOG   :/var/www/html/ame/_log/
+ES_MODULE:/var/www/html/ame/_mdl/
+------------------------------------------------------------
+USER AGENT:Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0 (POST)
+Host:localhost
+User-Agent:Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0
+Accept:*/*
+Accept-Language:pt-BR
+Accept-Encoding:gzip, deflate
+Content-Type:application/x-www-form-urlencoded
+Content-Length:12
+Origin:http://localhost
+Connection:keep-alive
+Referer:http://localhost/ame/
+Cookie:ca2ce7b12d96787788d960a7da48256e=r66kkc4n0dlpqa5m2mrbn3avue; 347a11d1e4d12e53ac0b397425571aca=75g0jb21sd73tr52ngnn4n5caf
+------------------------------------------------------------
+20200822-18:46:18(1598132778.2207 - 0.00011) - ajax-json.TcDebug::__construct                              ;System Debug Level = 9
+20200822-18:46:18(1598132778.2207 - 0.00017) - ajax-json.TcDebug::setFile                                  ;/var/www/html/ame/_log/ajax-json(0822-18).txt
+20200822-18:46:18(1598132778.2208 - 0.00021) - ajax-json.TcDB::__construct                                 ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-18:46:18(1598132778.2209 - 0.00031) - ajax-json.TcUser::__construct                               ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-18:46:18(1598132778.2209 - 0.00034) - ajax-json.TcPackage::__construct                            ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-18:46:18(1598132778.2209 - 0.00037) - ajax-json.TcUser::active                                    ;{"id":"1","user":"admin","ip":"127.0.0.1","login":1598132191,"lupdate":1598132777,"modules":{"usudta":true}}
+20200822-18:46:18(1598132778.2210 - 0.00040) - ajax-json.TcUser::active                                    ;{"multiple":true,"timeout":6000,"project":"ame","log":{"access":true,"password":true},"validate":["email","register","code"]}
+20200822-18:46:18(1598132778.2210 - 0.00043) - ajax-json.                                                  ;usuário ATIVO - processando modulo :dskcld
+20200822-18:46:18(1598132778.2210 - 0.00045) - ajax-json.TcPackage::getModule                              ;["dskcld","M",false,0]
+20200822-18:46:18(1598132778.2445 - 0.02392) - ajax-json.TcUser::active                                    ;{"id":"1","user":"admin","ip":"127.0.0.1","login":1598132191,"lupdate":1598132778,"modules":{"usudta":true}}
+20200822-18:46:18(1598132778.2445 - 0.02394) - ajax-json.TcUser::active                                    ;{"multiple":true,"timeout":6000,"project":"ame","log":{"access":true,"password":true},"validate":["email","register","code"]}
+20200822-18:46:18(1598132778.2446 - 0.02398) - ajax-json.TcPackage::getForm                                ;["dskcld"]
+20200822-18:46:18(1598132778.2446 - 0.02403) - ajax-json.TcPackage::getForm                                ;Incluindo... /var/www/html/ame/_mdl/dsk/dskcld.html
+20200822-18:46:18(1598132778.2764 - 0.05587) - ajax-json.TcPackage::processModule                          ;dskcld
+20200822-18:46:18(1598132778.2765 - 0.05591) - ajax-json.TcPackage::processModule                          ;dskcld
+20200822-18:46:18(1598132778.2765 - 0.05594) - ajax-json.TcPackage::writePackage                           ;
+20200822-18:46:18(1598132778.2766 - 0.05603) - ajax-json.TcDebug::setFile                                  ;/var/www/html/ame/_log/0822-18-admin.127.0.0.1.txt
+20200822-18:46:18(1598132778.2766 - 0.05606) - ajax-json.TcPackage::__destruct                             ;
+20200822-18:46:18(1598132778.2767 - 0.05609) - ajax-json.TcUser::__destruct                                ;
+20200822-18:46:18(1598132778.2767 - 0.05612) - ajax-json.TcDB::__destruct                                  ;
+20200822-18:46:18(1598132778.2767 - 0.05614) - ajax-json.TcDebug::__destruct                               ;
+20200822-18:46:18(1598132778.2768 - 0.05621) - ajax-json.TcDebug::save                                     ;Linhas : 21
+20200822-18:46:18(1598132778.2774 - 0.05685) - ajax-json.TcDebug::TcDebug::save.EOF - FILE                 ;
+------------------------------------------------------------
+IP : 127.0.0.1(9)
+------------------------------------------------------------
+ES       :/var/www/html/ame/
+ES_LIB   :/var/www/html/ame/_lib/
+ES_HTML  :/var/www/html/ame/html/
+ES_LOG   :/var/www/html/ame/_log/
+ES_MODULE:/var/www/html/ame/_mdl/
+------------------------------------------------------------
+USER AGENT:Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0 (GET)
+Host:localhost
+User-Agent:Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language:pt-BR
+Accept-Encoding:gzip, deflate
+Connection:keep-alive
+Cookie:ca2ce7b12d96787788d960a7da48256e=r66kkc4n0dlpqa5m2mrbn3avue; 347a11d1e4d12e53ac0b397425571aca=75g0jb21sd73tr52ngnn4n5caf
+Upgrade-Insecure-Requests:1
+Cache-Control:max-age=0
+------------------------------------------------------------
+20200822-18:48:16(1598132896.9674 - 0.12578) - index.TcDebug::__construct                                  ;System Debug Level = 9
+20200822-18:48:16(1598132896.9675 - 0.12584) - index.TcDebug::setFile                                      ;/var/www/html/ame/_log/index(0822-18).txt
+20200822-18:48:16(1598132896.9675 - 0.12589) - index.TcDB::__construct                                     ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-18:48:16(1598132896.9676 - 0.12601) - index.TcUser::__construct                                   ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-18:48:16(1598132896.9677 - 0.12604) - index.TcUser::active                                        ;{"id":"1","user":"admin","ip":"127.0.0.1","login":1598132191,"lupdate":1598132778,"modules":{"usudta":true}}
+20200822-18:48:16(1598132896.9677 - 0.12607) - index.TcUser::active                                        ;{"multiple":true,"timeout":6000,"project":"ame","log":{"access":true,"pass":true,"module":true},"validate":["email","register","code"],"instance":{"multiple":true,"timeout":86400},"pass":{"min":3,"max":25,"complex":"","resset":["email","register"],"tokenTime":86400},"login":["email","register","code","rf"]}
+20200822-18:48:16(1598132896.9678 - 0.12615) - index.TcDebug::setFile                                      ;/var/www/html/ame/_log/0822-18-admin.127.0.0.1.txt
+20200822-18:48:16(1598132896.9678 - 0.12617) - index.TcUser::__destruct                                    ;
+20200822-18:48:16(1598132896.9678 - 0.12621) - index.TcDB::__destruct                                      ;
+20200822-18:48:16(1598132896.9679 - 0.12623) - index.TcDebug::__destruct                                   ;
+20200822-18:48:16(1598132896.9679 - 0.12626) - index.TcDebug::save                                         ;Linhas : 10
+20200822-18:48:16(1598132896.9687 - 0.12706) - index.TcDebug::TcDebug::save.EOF - FILE                     ;
+------------------------------------------------------------
+IP : 127.0.0.1(9)
+------------------------------------------------------------
+ES       :/var/www/html/ame/
+ES_LIB   :/var/www/html/ame/_lib/
+ES_HTML  :/var/www/html/ame/html/
+ES_LOG   :/var/www/html/ame/_log/
+ES_MODULE:/var/www/html/ame/_mdl/
+------------------------------------------------------------
+USER AGENT:Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0 (POST)
+Host:localhost
+User-Agent:Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0
+Accept:*/*
+Accept-Language:pt-BR
+Accept-Encoding:gzip, deflate
+Content-Type:application/x-www-form-urlencoded
+Content-Length:12
+Origin:http://localhost
+Connection:keep-alive
+Referer:http://localhost/ame/
+Cookie:ca2ce7b12d96787788d960a7da48256e=r66kkc4n0dlpqa5m2mrbn3avue; 347a11d1e4d12e53ac0b397425571aca=75g0jb21sd73tr52ngnn4n5caf
+------------------------------------------------------------
+20200822-18:48:18(1598132898.0183 - 0.00288) - ajax-json.TcDebug::__construct                              ;System Debug Level = 9
+20200822-18:48:18(1598132898.0183 - 0.00293) - ajax-json.TcDebug::setFile                                  ;/var/www/html/ame/_log/ajax-json(0822-18).txt
+20200822-18:48:18(1598132898.0183 - 0.00297) - ajax-json.TcDB::__construct                                 ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-18:48:18(1598132898.0184 - 0.00307) - ajax-json.TcUser::__construct                               ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-18:48:18(1598132898.0185 - 0.00309) - ajax-json.TcPackage::__construct                            ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-18:48:18(1598132898.0185 - 0.00311) - ajax-json.TcUser::active                                    ;{"id":"1","user":"admin","ip":"127.0.0.1","login":1598132191,"lupdate":1598132896,"modules":{"usudta":true}}
+20200822-18:48:18(1598132898.0185 - 0.00312) - ajax-json.TcUser::active                                    ;{"multiple":true,"timeout":6000,"project":"ame","log":{"access":true,"password":true},"validate":["email","register","code"]}
+20200822-18:48:18(1598132898.0185 - 0.00315) - ajax-json.                                                  ;usuário ATIVO - processando módulos carregados!
+20200822-18:48:18(1598132898.0185 - 0.00316) - ajax-json.TcPackage::getModule                              ;["dskusu","M",false,0]
+20200822-18:48:18(1598132898.0186 - 0.00322) - ajax-json.TcUser::active                                    ;{"id":"1","user":"admin","ip":"127.0.0.1","login":1598132191,"lupdate":1598132898,"modules":{"usudta":true}}
+20200822-18:48:18(1598132898.0186 - 0.00324) - ajax-json.TcUser::active                                    ;{"multiple":true,"timeout":6000,"project":"ame","log":{"access":true,"password":true},"validate":["email","register","code"]}
+20200822-18:48:18(1598132898.0186 - 0.00326) - ajax-json.TcPackage::getForm                                ;["dskusu"]
+20200822-18:48:18(1598132898.0187 - 0.00330) - ajax-json.TcPackage::getForm                                ;Incluindo... /var/www/html/ame/_mdl/dsk/navbar.html
+20200822-18:48:18(1598132898.0473 - 0.03193) - ajax-json.TcPackage::getForm                                ;Incluindo... /var/www/html/ame/_mdl/dsk/foobar.html
+20200822-18:48:18(1598132898.0474 - 0.03203) - ajax-json.TcPackage::getForm                                ;Incluindo... /var/www/html/ame/_mdl/dsk/tutorial.html
+20200822-18:48:18(1598132898.0475 - 0.03210) - ajax-json.TcPackage::processModule                          ;dskusu
+20200822-18:48:18(1598132898.0475 - 0.03212) - ajax-json.TcPackage::processModule                          ;dskusu
+20200822-18:48:18(1598132898.0475 - 0.03215) - ajax-json.TcPackage::writePackage                           ;
+20200822-18:48:18(1598132898.0476 - 0.03223) - ajax-json.TcDebug::setFile                                  ;/var/www/html/ame/_log/0822-18-admin.127.0.0.1.txt
+20200822-18:48:18(1598132898.0476 - 0.03225) - ajax-json.TcPackage::__destruct                             ;
+20200822-18:48:18(1598132898.0476 - 0.03228) - ajax-json.TcUser::__destruct                                ;
+20200822-18:48:18(1598132898.0477 - 0.03229) - ajax-json.TcDB::__destruct                                  ;
+20200822-18:48:18(1598132898.0477 - 0.03231) - ajax-json.TcDebug::__destruct                               ;
+20200822-18:48:18(1598132898.0477 - 0.03233) - ajax-json.TcDebug::save                                     ;Linhas : 23
+20200822-18:48:18(1598132898.0484 - 0.03307) - ajax-json.TcDebug::TcDebug::save.EOF - FILE                 ;
+------------------------------------------------------------
+IP : 127.0.0.1(9)
+------------------------------------------------------------
+ES       :/var/www/html/ame/
+ES_LIB   :/var/www/html/ame/_lib/
+ES_HTML  :/var/www/html/ame/html/
+ES_LOG   :/var/www/html/ame/_log/
+ES_MODULE:/var/www/html/ame/_mdl/
+------------------------------------------------------------
+USER AGENT:Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0 (POST)
+Host:localhost
+User-Agent:Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0
+Accept:*/*
+Accept-Language:pt-BR
+Accept-Encoding:gzip, deflate
+Content-Type:application/x-www-form-urlencoded
+Content-Length:12
+Origin:http://localhost
+Connection:keep-alive
+Referer:http://localhost/ame/
+Cookie:ca2ce7b12d96787788d960a7da48256e=r66kkc4n0dlpqa5m2mrbn3avue; 347a11d1e4d12e53ac0b397425571aca=75g0jb21sd73tr52ngnn4n5caf
+------------------------------------------------------------
+20200822-18:48:18(1598132898.3845 - 0.00012) - ajax-json.TcDebug::__construct                              ;System Debug Level = 9
+20200822-18:48:18(1598132898.3845 - 0.00019) - ajax-json.TcDebug::setFile                                  ;/var/www/html/ame/_log/ajax-json(0822-18).txt
+20200822-18:48:18(1598132898.3846 - 0.00023) - ajax-json.TcDB::__construct                                 ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-18:48:18(1598132898.3846 - 0.00031) - ajax-json.TcUser::__construct                               ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-18:48:18(1598132898.3847 - 0.00033) - ajax-json.TcPackage::__construct                            ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-18:48:18(1598132898.3847 - 0.00035) - ajax-json.TcUser::active                                    ;{"id":"1","user":"admin","ip":"127.0.0.1","login":1598132191,"lupdate":1598132898,"modules":{"usudta":true}}
+20200822-18:48:18(1598132898.3847 - 0.00037) - ajax-json.TcUser::active                                    ;{"multiple":true,"timeout":6000,"project":"ame","log":{"access":true,"password":true},"validate":["email","register","code"]}
+20200822-18:48:18(1598132898.3847 - 0.00039) - ajax-json.                                                  ;usuário ATIVO - processando modulo :dskbdy
+20200822-18:48:18(1598132898.3847 - 0.00041) - ajax-json.TcPackage::getModule                              ;["dskbdy","M",false,0]
+20200822-18:48:18(1598132898.3848 - 0.00046) - ajax-json.TcUser::active                                    ;{"id":"1","user":"admin","ip":"127.0.0.1","login":1598132191,"lupdate":1598132898,"modules":{"usudta":true}}
+20200822-18:48:18(1598132898.3848 - 0.00047) - ajax-json.TcUser::active                                    ;{"multiple":true,"timeout":6000,"project":"ame","log":{"access":true,"password":true},"validate":["email","register","code"]}
+20200822-18:48:18(1598132898.3848 - 0.00049) - ajax-json.TcPackage::getForm                                ;["dskbdy"]
+20200822-18:48:18(1598132898.3849 - 0.00053) - ajax-json.TcPackage::getForm                                ;Incluindo... /var/www/html/ame/_mdl/dsk/dskbdy.html
+20200822-18:48:18(1598132898.3850 - 0.00063) - ajax-json.TcPackage::processModule                          ;dskbdy
+20200822-18:48:18(1598132898.3850 - 0.00067) - ajax-json.TcPackage::processModule                          ;dskbdy
+20200822-18:48:18(1598132898.3850 - 0.00070) - ajax-json.TcPackage::writePackage                           ;
+20200822-18:48:18(1598132898.3851 - 0.00077) - ajax-json.TcDebug::setFile                                  ;/var/www/html/ame/_log/0822-18-admin.127.0.0.1.txt
+20200822-18:48:18(1598132898.3851 - 0.00079) - ajax-json.TcPackage::__destruct                             ;
+20200822-18:48:18(1598132898.3852 - 0.00081) - ajax-json.TcUser::__destruct                                ;
+20200822-18:48:18(1598132898.3852 - 0.00083) - ajax-json.TcDB::__destruct                                  ;
+20200822-18:48:18(1598132898.3852 - 0.00085) - ajax-json.TcDebug::__destruct                               ;
+20200822-18:48:18(1598132898.3852 - 0.00086) - ajax-json.TcDebug::save                                     ;Linhas : 21
+20200822-18:48:18(1598132898.3859 - 0.00151) - ajax-json.TcDebug::TcDebug::save.EOF - FILE                 ;
+------------------------------------------------------------
+IP : 127.0.0.1(9)
+------------------------------------------------------------
+ES       :/var/www/html/ame/
+ES_LIB   :/var/www/html/ame/_lib/
+ES_HTML  :/var/www/html/ame/html/
+ES_LOG   :/var/www/html/ame/_log/
+ES_MODULE:/var/www/html/ame/_mdl/
+------------------------------------------------------------
+USER AGENT:Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0 (POST)
+Host:localhost
+User-Agent:Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0
+Accept:*/*
+Accept-Language:pt-BR
+Accept-Encoding:gzip, deflate
+Content-Type:application/x-www-form-urlencoded
+Content-Length:12
+Origin:http://localhost
+Connection:keep-alive
+Referer:http://localhost/ame/
+Cookie:ca2ce7b12d96787788d960a7da48256e=r66kkc4n0dlpqa5m2mrbn3avue; 347a11d1e4d12e53ac0b397425571aca=75g0jb21sd73tr52ngnn4n5caf
+------------------------------------------------------------
+20200822-18:48:18(1598132898.3849 - 0.00009) - ajax-json.TcDebug::__construct                              ;System Debug Level = 9
+20200822-18:48:18(1598132898.3849 - 0.00015) - ajax-json.TcDebug::setFile                                  ;/var/www/html/ame/_log/ajax-json(0822-18).txt
+20200822-18:48:18(1598132898.3850 - 0.00019) - ajax-json.TcDB::__construct                                 ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-18:48:18(1598132898.3860 - 0.00122) - ajax-json.TcUser::__construct                               ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-18:48:18(1598132898.3860 - 0.00126) - ajax-json.TcPackage::__construct                            ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-18:48:18(1598132898.3861 - 0.00129) - ajax-json.TcUser::active                                    ;{"id":"1","user":"admin","ip":"127.0.0.1","login":1598132191,"lupdate":1598132898,"modules":{"usudta":true}}
+20200822-18:48:18(1598132898.3861 - 0.00134) - ajax-json.TcUser::active                                    ;{"multiple":true,"timeout":6000,"project":"ame","log":{"access":true,"password":true},"validate":["email","register","code"]}
+20200822-18:48:18(1598132898.3862 - 0.00137) - ajax-json.                                                  ;usuário ATIVO - processando modulo :sysnav
+20200822-18:48:18(1598132898.3862 - 0.00140) - ajax-json.TcPackage::getModule                              ;["sysnav","M",false,0]
+20200822-18:48:18(1598132898.3863 - 0.00151) - ajax-json.TcUser::active                                    ;{"id":"1","user":"admin","ip":"127.0.0.1","login":1598132191,"lupdate":1598132898,"modules":{"usudta":true}}
+20200822-18:48:18(1598132898.3863 - 0.00153) - ajax-json.TcUser::active                                    ;{"multiple":true,"timeout":6000,"project":"ame","log":{"access":true,"password":true},"validate":["email","register","code"]}
+20200822-18:48:18(1598132898.3864 - 0.00156) - ajax-json.TcPackage::getForm                                ;["sysnav"]
+20200822-18:48:18(1598132898.3864 - 0.00161) - ajax-json.TcPackage::getForm                                ;Incluindo... /var/www/html/ame/_mdl/sys/sysnav.html
+20200822-18:48:18(1598132898.3866 - 0.00178) - ajax-json.TcPackage::processModule                          ;sysnav
+20200822-18:48:18(1598132898.3866 - 0.00181) - ajax-json.TcPackage::processModule                          ;sysnav
+20200822-18:48:18(1598132898.3866 - 0.00184) - ajax-json.TcPackage::writePackage                           ;
+20200822-18:48:18(1598132898.3867 - 0.00194) - ajax-json.TcDebug::setFile                                  ;/var/www/html/ame/_log/0822-18-admin.127.0.0.1.txt
+20200822-18:48:18(1598132898.3868 - 0.00197) - ajax-json.TcPackage::__destruct                             ;
+20200822-18:48:18(1598132898.3868 - 0.00200) - ajax-json.TcUser::__destruct                                ;
+20200822-18:48:18(1598132898.3868 - 0.00202) - ajax-json.TcDB::__destruct                                  ;
+20200822-18:48:18(1598132898.3868 - 0.00205) - ajax-json.TcDebug::__destruct                               ;
+20200822-18:48:18(1598132898.3869 - 0.00208) - ajax-json.TcDebug::save                                     ;Linhas : 21
+20200822-18:48:18(1598132898.3875 - 0.00274) - ajax-json.TcDebug::TcDebug::save.EOF - FILE                 ;
+------------------------------------------------------------
+IP : 127.0.0.1(9)
+------------------------------------------------------------
+ES       :/var/www/html/ame/
+ES_LIB   :/var/www/html/ame/_lib/
+ES_HTML  :/var/www/html/ame/html/
+ES_LOG   :/var/www/html/ame/_log/
+ES_MODULE:/var/www/html/ame/_mdl/
+------------------------------------------------------------
+USER AGENT:Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0 (POST)
+Host:localhost
+User-Agent:Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0
+Accept:*/*
+Accept-Language:pt-BR
+Accept-Encoding:gzip, deflate
+Content-Type:application/x-www-form-urlencoded
+Content-Length:12
+Origin:http://localhost
+Connection:keep-alive
+Referer:http://localhost/ame/
+Cookie:ca2ce7b12d96787788d960a7da48256e=r66kkc4n0dlpqa5m2mrbn3avue; 347a11d1e4d12e53ac0b397425571aca=75g0jb21sd73tr52ngnn4n5caf
+------------------------------------------------------------
+20200822-18:48:18(1598132898.3854 - 0.00009) - ajax-json.TcDebug::__construct                              ;System Debug Level = 9
+20200822-18:48:18(1598132898.3855 - 0.00014) - ajax-json.TcDebug::setFile                                  ;/var/www/html/ame/_log/ajax-json(0822-18).txt
+20200822-18:48:18(1598132898.3855 - 0.00018) - ajax-json.TcDB::__construct                                 ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-18:48:18(1598132898.3877 - 0.00234) - ajax-json.TcUser::__construct                               ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-18:48:18(1598132898.3877 - 0.00238) - ajax-json.TcPackage::__construct                            ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-18:48:18(1598132898.3877 - 0.00241) - ajax-json.TcUser::active                                    ;{"id":"1","user":"admin","ip":"127.0.0.1","login":1598132191,"lupdate":1598132898,"modules":{"usudta":true}}
+20200822-18:48:18(1598132898.3878 - 0.00244) - ajax-json.TcUser::active                                    ;{"multiple":true,"timeout":6000,"project":"ame","log":{"access":true,"password":true},"validate":["email","register","code"]}
+20200822-18:48:18(1598132898.3878 - 0.00248) - ajax-json.                                                  ;usuário ATIVO - processando modulo :sysmnu
+20200822-18:48:18(1598132898.3878 - 0.00251) - ajax-json.TcPackage::getModule                              ;["sysmnu","M",false,0]
+20200822-18:48:18(1598132898.3879 - 0.00259) - ajax-json.TcUser::active                                    ;{"id":"1","user":"admin","ip":"127.0.0.1","login":1598132191,"lupdate":1598132898,"modules":{"usudta":true}}
+20200822-18:48:18(1598132898.3879 - 0.00262) - ajax-json.TcUser::active                                    ;{"multiple":true,"timeout":6000,"project":"ame","log":{"access":true,"password":true},"validate":["email","register","code"]}
+20200822-18:48:18(1598132898.3880 - 0.00265) - ajax-json.TcPackage::getForm                                ;["sysmnu"]
+20200822-18:48:18(1598132898.3880 - 0.00270) - ajax-json.TcPackage::getForm                                ;Incluindo... /var/www/html/ame/_mdl/sys/sysmnu.html
+20200822-18:48:18(1598132898.3886 - 0.00330) - ajax-json.TcPackage::processModule                          ;sysmnu
+20200822-18:48:18(1598132898.3887 - 0.00334) - ajax-json.TcPackage::processModule                          ;sysmnu
+20200822-18:48:18(1598132898.3887 - 0.00337) - ajax-json.TcPackage::writePackage                           ;
+20200822-18:48:18(1598132898.3889 - 0.00361) - ajax-json.TcDebug::setFile                                  ;/var/www/html/ame/_log/0822-18-admin.127.0.0.1.txt
+20200822-18:48:18(1598132898.3890 - 0.00365) - ajax-json.TcPackage::__destruct                             ;
+20200822-18:48:18(1598132898.3890 - 0.00367) - ajax-json.TcUser::__destruct                                ;
+20200822-18:48:18(1598132898.3890 - 0.00370) - ajax-json.TcDB::__destruct                                  ;
+20200822-18:48:18(1598132898.3891 - 0.00373) - ajax-json.TcDebug::__destruct                               ;
+20200822-18:48:18(1598132898.3891 - 0.00376) - ajax-json.TcDebug::save                                     ;Linhas : 21
+20200822-18:48:18(1598132898.3897 - 0.00441) - ajax-json.TcDebug::TcDebug::save.EOF - FILE                 ;
+------------------------------------------------------------
+IP : 127.0.0.1(9)
+------------------------------------------------------------
+ES       :/var/www/html/ame/
+ES_LIB   :/var/www/html/ame/_lib/
+ES_HTML  :/var/www/html/ame/html/
+ES_LOG   :/var/www/html/ame/_log/
+ES_MODULE:/var/www/html/ame/_mdl/
+------------------------------------------------------------
+USER AGENT:Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0 (POST)
+Host:localhost
+User-Agent:Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0
+Accept:*/*
+Accept-Language:pt-BR
+Accept-Encoding:gzip, deflate
+Content-Type:application/x-www-form-urlencoded
+Content-Length:12
+Origin:http://localhost
+Connection:keep-alive
+Referer:http://localhost/ame/
+Cookie:ca2ce7b12d96787788d960a7da48256e=r66kkc4n0dlpqa5m2mrbn3avue; 347a11d1e4d12e53ac0b397425571aca=75g0jb21sd73tr52ngnn4n5caf
+------------------------------------------------------------
+20200822-18:48:18(1598132898.7999 - 0.00011) - ajax-json.TcDebug::__construct                              ;System Debug Level = 9
+20200822-18:48:18(1598132898.8000 - 0.00017) - ajax-json.TcDebug::setFile                                  ;/var/www/html/ame/_log/ajax-json(0822-18).txt
+20200822-18:48:18(1598132898.8000 - 0.00021) - ajax-json.TcDB::__construct                                 ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-18:48:18(1598132898.8001 - 0.00029) - ajax-json.TcUser::__construct                               ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-18:48:18(1598132898.8001 - 0.00032) - ajax-json.TcPackage::__construct                            ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-18:48:18(1598132898.8002 - 0.00035) - ajax-json.TcUser::active                                    ;{"id":"1","user":"admin","ip":"127.0.0.1","login":1598132191,"lupdate":1598132898,"modules":{"usudta":true}}
+20200822-18:48:18(1598132898.8002 - 0.00037) - ajax-json.TcUser::active                                    ;{"multiple":true,"timeout":6000,"project":"ame","log":{"access":true,"password":true},"validate":["email","register","code"]}
+20200822-18:48:18(1598132898.8002 - 0.00040) - ajax-json.                                                  ;usuário ATIVO - processando modulo :dskcld
+20200822-18:48:18(1598132898.8002 - 0.00043) - ajax-json.TcPackage::getModule                              ;["dskcld","M",false,0]
+20200822-18:48:18(1598132898.8003 - 0.00049) - ajax-json.TcUser::active                                    ;{"id":"1","user":"admin","ip":"127.0.0.1","login":1598132191,"lupdate":1598132898,"modules":{"usudta":true}}
+20200822-18:48:18(1598132898.8003 - 0.00052) - ajax-json.TcUser::active                                    ;{"multiple":true,"timeout":6000,"project":"ame","log":{"access":true,"password":true},"validate":["email","register","code"]}
+20200822-18:48:18(1598132898.8004 - 0.00055) - ajax-json.TcPackage::getForm                                ;["dskcld"]
+20200822-18:48:18(1598132898.8004 - 0.00060) - ajax-json.TcPackage::getForm                                ;Incluindo... /var/www/html/ame/_mdl/dsk/dskcld.html
+20200822-18:48:18(1598132898.8005 - 0.00073) - ajax-json.TcPackage::processModule                          ;dskcld
+20200822-18:48:18(1598132898.8006 - 0.00077) - ajax-json.TcPackage::processModule                          ;dskcld
+20200822-18:48:18(1598132898.8006 - 0.00080) - ajax-json.TcPackage::writePackage                           ;
+20200822-18:48:18(1598132898.8007 - 0.00087) - ajax-json.TcDebug::setFile                                  ;/var/www/html/ame/_log/0822-18-admin.127.0.0.1.txt
+20200822-18:48:18(1598132898.8007 - 0.00089) - ajax-json.TcPackage::__destruct                             ;
+20200822-18:48:18(1598132898.8007 - 0.00091) - ajax-json.TcUser::__destruct                                ;
+20200822-18:48:18(1598132898.8007 - 0.00093) - ajax-json.TcDB::__destruct                                  ;
+20200822-18:48:18(1598132898.8008 - 0.00095) - ajax-json.TcDebug::__destruct                               ;
+20200822-18:48:18(1598132898.8008 - 0.00098) - ajax-json.TcDebug::save                                     ;Linhas : 21
+20200822-18:48:18(1598132898.8013 - 0.00155) - ajax-json.TcDebug::TcDebug::save.EOF - FILE                 ;

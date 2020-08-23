@@ -1,0 +1,105 @@
+
+/* definições gerais para todas as paginas do sistema */
+
+:root{
+    /* as cores são numeradas. quanto maior o numero, mais forte é a cor daquela determina seleção */
+
+    /* CINZAS */
+    --cinza-1-color: #f8f8f8;
+    --cinza-2-color: #ededed;
+    --cinza-3-color: #acacac;
+    --cinza-4-color: #898989;
+    --cinza-5-color: #383838;
+
+    /* AZUIS */
+    --azul-1-color: #a2c7fa;
+    --azul-2-color: #6ca5ea;
+    --azul-3-color: #5394f2;
+    --azul-4-color: #3278cc;
+    --azul-5-color: #1b67bc;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline:  0;
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    min-height: 100%;
+}
+
+body {
+    background: var(--cinza-1-color);
+    -webkit-font-smoothing: antialiased !important;
+}
+
+body, input, button{
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-size: 16px; /* isso aqui precisa avaliar e modificar */
+}
+
+.centralizaInner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+}
+.row{
+    margin: 0;
+}
+
+.imgAgendamentoDispMovel{
+    height: 40%;
+    width: 40%;
+    padding: 10px;
+    display: none;
+}
+
+.textoPage{
+    /* gambiarra */
+    padding-left: 140px;
+    padding-top: 350px;
+
+    /* border: 1px solid green; */
+}
+
+/* INPUT */
+.custom-select-lg, .form-control-lg{
+    min-width: 100%;
+    width: auto;
+    height: auto;
+
+    background-color: var(--cinza-2-color);
+    color:  var(--cinza-5-color);
+
+    border: 1px solid var(--cinza-4-color);
+    border-radius: 20px;
+}
+
+.btn-lg{
+    width: 300px;
+    border-radius: 20px;
+
+    background-color: var(--azul-3-color);
+    border: 1px solid var(--azul-3-color);
+    color: var(--cinza-1-color);
+    font-weight: bold;
+    box-shadow:0 0 1em rgba(0,0,0,0.2);
+}
+
+/*  */
+
+@media (max-width: 1000px){
+    .textoPage{
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    .imgAgendamentoDispMovel{
+        display: inline;
+    }
+}

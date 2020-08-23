@@ -1,0 +1,84 @@
+------------------------------------------------------------
+IP : 127.0.0.1(9)
+------------------------------------------------------------
+ES       :/var/www/html/ame/
+ES_LIB   :/var/www/html/ame/_lib/
+ES_HTML  :/var/www/html/ame/html/
+ES_LOG   :/var/www/html/ame/_log/
+ES_MODULE:/var/www/html/ame/_mdl/
+------------------------------------------------------------
+USER AGENT:Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0 (GET)
+------------------------------------------------------------
+20200822-22:13:50(1598145230.1852 - 0.00014) - index.TcDebug::__construct                                  ;System Debug Level = 9
+20200822-22:13:50(1598145230.1853 - 0.00021) - index.TcDebug::setFile                                      ;/var/www/html/ame/_log/index(0822-22).txt
+20200822-22:13:50(1598145230.1853 - 0.00025) - index.TcDB::__construct                                     ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-22:13:50(1598145230.1854 - 0.00034) - index.TcUser::__construct                                   ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-22:13:50(1598145230.1855 - 0.00037) - index.TcUser::active                                        ;not logged in
+20200822-22:13:50(1598145230.1855 - 0.00042) - index.TcUser::__destruct                                    ;
+20200822-22:13:50(1598145230.1855 - 0.00045) - index.TcDB::__destruct                                      ;
+20200822-22:13:50(1598145230.1856 - 0.00048) - index.TcDebug::__destruct                                   ;
+20200822-22:13:50(1598145230.1856 - 0.00050) - index.TcDebug::save                                         ;Linhas : 8
+20200822-22:13:50(1598145230.1860 - 0.00087) - index.TcDebug::TcDebug::save.EOF - FILE                     ;
+------------------------------------------------------------
+IP : 127.0.0.1(9)
+------------------------------------------------------------
+ES       :/var/www/html/ame/
+ES_LIB   :/var/www/html/ame/_lib/
+ES_HTML  :/var/www/html/ame/html/
+ES_LOG   :/var/www/html/ame/_log/
+ES_MODULE:/var/www/html/ame/_mdl/
+------------------------------------------------------------
+USER AGENT:Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0 (GET)
+------------------------------------------------------------
+20200822-22:34:18(1598146458.5899 - 0.00421) - index.TcDebug::__construct                                  ;System Debug Level = 9
+20200822-22:34:18(1598146458.5899 - 0.00429) - index.TcDebug::setFile                                      ;/var/www/html/ame/_log/index(0822-22).txt
+20200822-22:34:18(1598146458.5900 - 0.00435) - index.TcDB::__construct                                     ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-22:34:18(1598146458.5901 - 0.00446) - index.TcUser::__construct                                   ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-22:34:18(1598146458.5902 - 0.00451) - index.TcUser::active                                        ;not logged in
+20200822-22:34:18(1598146458.5902 - 0.00458) - index.TcUser::__destruct                                    ;
+20200822-22:34:18(1598146458.5903 - 0.00461) - index.TcDB::__destruct                                      ;
+20200822-22:34:18(1598146458.5903 - 0.00464) - index.TcDebug::__destruct                                   ;
+20200822-22:34:18(1598146458.5903 - 0.00467) - index.TcDebug::save                                         ;Linhas : 8
+20200822-22:34:18(1598146458.5907 - 0.00506) - index.TcDebug::TcDebug::save.EOF - FILE                     ;
+------------------------------------------------------------
+IP : 127.0.0.1(9)
+------------------------------------------------------------
+ES       :/var/www/html/ame/
+ES_LIB   :/var/www/html/ame/_lib/
+ES_HTML  :/var/www/html/ame/html/
+ES_LOG   :/var/www/html/ame/_log/
+ES_MODULE:/var/www/html/ame/_mdl/
+------------------------------------------------------------
+USER AGENT:Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0 (GET)
+------------------------------------------------------------
+20200822-22:34:52(1598146492.7356 - 0.00014) - index.TcDebug::__construct                                  ;System Debug Level = 9
+20200822-22:34:52(1598146492.7357 - 0.00021) - index.TcDebug::setFile                                      ;/var/www/html/ame/_log/index(0822-22).txt
+20200822-22:34:52(1598146492.7357 - 0.00026) - index.TcDB::__construct                                     ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-22:34:52(1598146492.7358 - 0.00035) - index.TcUser::__construct                                   ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-22:34:52(1598146492.7359 - 0.00039) - index.TcUser::active                                        ;not logged in
+20200822-22:34:52(1598146492.7359 - 0.00044) - index.TcUser::__destruct                                    ;
+20200822-22:34:52(1598146492.7359 - 0.00046) - index.TcDB::__destruct                                      ;
+20200822-22:34:52(1598146492.7360 - 0.00049) - index.TcDebug::__destruct                                   ;
+20200822-22:34:52(1598146492.7360 - 0.00050) - index.TcDebug::save                                         ;Linhas : 8
+20200822-22:34:52(1598146492.7364 - 0.00090) - index.TcDebug::TcDebug::save.EOF - FILE                     ;
+------------------------------------------------------------
+IP : 127.0.0.1(9)
+------------------------------------------------------------
+ES       :/var/www/html/ame/
+ES_LIB   :/var/www/html/ame/_lib/
+ES_HTML  :/var/www/html/ame/html/
+ES_LOG   :/var/www/html/ame/_log/
+ES_MODULE:/var/www/html/ame/_mdl/
+------------------------------------------------------------
+USER AGENT:Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0 (GET)
+------------------------------------------------------------
+20200822-22:56:55(1598147815.7805 - 0.00012) - index.TcDebug::__construct                                  ;System Debug Level = 9
+20200822-22:56:55(1598147815.7806 - 0.00019) - index.TcDebug::setFile                                      ;/var/www/html/ame/_log/index(0822-22).txt
+20200822-22:56:55(1598147815.7806 - 0.00022) - index.TcDB::__construct                                     ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-22:56:55(1598147815.7807 - 0.00030) - index.TcUser::__construct                                   ;Debug Level :1,1,1,1,1,1,1,1,1,1
+20200822-22:56:55(1598147815.7808 - 0.00033) - index.TcUser::active                                        ;not logged in
+20200822-22:56:55(1598147815.7808 - 0.00037) - index.TcUser::__destruct                                    ;
+20200822-22:56:55(1598147815.7808 - 0.00040) - index.TcDB::__destruct                                      ;
+20200822-22:56:55(1598147815.7808 - 0.00042) - index.TcDebug::__destruct                                   ;
+20200822-22:56:55(1598147815.7809 - 0.00046) - index.TcDebug::save                                         ;Linhas : 8
+20200822-22:56:55(1598147815.7813 - 0.00090) - index.TcDebug::TcDebug::save.EOF - FILE                     ;

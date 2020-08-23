@@ -1,0 +1,22 @@
+/*------------------------------------------------------------------------------------------------------------
+Mantenedor     : Alexandre Carneiro
+Linguaguem     : CSS
+Dependencia    :
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Modulo         : Definição da skin do sistema - Cores, formatos, imagens
+------------------------------------------------------------------------------------------------------------*/
+
+:root{
+    --footer-color: #ccc;
+
+    /* Cores bases do sistema */
+    --azul: #5499FF;
+        --azul-claro: #70a7f5;
+    --cinza: #6b7782;
+    --gelo: #f7fbfb;
+    --amarelo: #f0Fd17;
+    --vermelho: #ff4F5F;
+    --preto: #00F0F0;
+}
+
+.a { background-color: #F1F1F1 }

@@ -1,0 +1,20 @@
+<script src="../../js/faq.js"></script>
+<div class="faqWindow" id="faqWindow">
+    <div class="buttonFaqShow" id="faqButton">
+        <p id="faqButtonP" class="closed">FAQ</p>
+    </div>
+    <div class="listDiv" id="faqList">
+        <!-- Colocar a lista de itens -->
+    </div>
+
+    <script>
+        var faq = new FaqWindow([], "faqWindow");
+        //TODO: carregar a lista de faqs num local adequado
+        faq.refreshFaq(
+            [
+                { icon: "http://clibras.teste.ufpr.br/clibras/img/clibras.png", description: "TESTE1", question: "Como fazer algo", handleItemClick: () => { alert("TODO") } },
+                { icon: "http://clibras.teste.ufpr.br/clibras/img/clibras.png", description: "TESTE2", question: "Onde encontrar algo", handleItemClick: () => { alert("TODO") } },
+                { icon: "http://clibras.teste.ufpr.br/clibras/img/clibras.png", description: "TESTE3", question: "Algo", handleItemClick: () => { alert("TODO") } },
+            ])
+    </script>
+</div>
